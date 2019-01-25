@@ -34,7 +34,7 @@
             this.btn_Save = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.grpbx_valuesInWords = new System.Windows.Forms.GroupBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtbx_freightAmount = new System.Windows.Forms.TextBox();
             this.lbl_freightAmount = new System.Windows.Forms.Label();
             this.txtbx_freightRate = new System.Windows.Forms.TextBox();
             this.lbl_freightRate = new System.Windows.Forms.Label();
@@ -42,11 +42,11 @@
             this.lbl_RSWords = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.grpbx_totals = new System.Windows.Forms.GroupBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtbx_totalAmount = new System.Windows.Forms.TextBox();
+            this.txtbx_totalWeight = new System.Windows.Forms.TextBox();
+            this.txtbx_totalPkg = new System.Windows.Forms.TextBox();
+            this.txtbx_totalQtl = new System.Windows.Forms.TextBox();
+            this.txtbx_insuranceAmount = new System.Windows.Forms.TextBox();
             this.lbl_totalAmount = new System.Windows.Forms.Label();
             this.lbl_weight = new System.Windows.Forms.Label();
             this.lbl_totalPkg = new System.Windows.Forms.Label();
@@ -59,13 +59,13 @@
             this.lbl_IFSC = new System.Windows.Forms.Label();
             this.lbl_AC = new System.Windows.Forms.Label();
             this.lbl_bank = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtbx_policyNo = new System.Windows.Forms.TextBox();
+            this.txtbx_insurance = new System.Windows.Forms.TextBox();
             this.lbl_policyNumber = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.grpbx_billDetails = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.datagrid_orderDetails = new System.Windows.Forms.DataGridView();
             this.serialNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.goodsDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Qtl = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -84,14 +84,14 @@
             this.txtbx_InvoiceNumber = new System.Windows.Forms.TextBox();
             this.tab_upperpart = new System.Windows.Forms.TableLayoutPanel();
             this.grpbx_driverInfo = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtbx_transport = new System.Windows.Forms.TextBox();
             this.lbl_transport = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtbx_driverNo = new System.Windows.Forms.TextBox();
+            this.txtbx_licNo = new System.Windows.Forms.TextBox();
             this.lbl_driverNumber = new System.Windows.Forms.Label();
             this.lbl_driverLic = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtbx_driverName = new System.Windows.Forms.TextBox();
+            this.txtbx_truckNo = new System.Windows.Forms.TextBox();
             this.txtbx_brokerName = new System.Windows.Forms.TextBox();
             this.lbl_brokerName = new System.Windows.Forms.Label();
             this.lbl_driverName = new System.Windows.Forms.Label();
@@ -177,51 +177,13 @@
             this.txtb_enterInvoice = new System.Windows.Forms.TextBox();
             this.btn_searchBill = new System.Windows.Forms.Button();
             this.tbp_editBill = new System.Windows.Forms.TabPage();
-            this.tbp_deleteBill = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_saveEdit = new System.Windows.Forms.Button();
-            this.btn_resetEdit = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtbx_enterInvoiceEdit = new System.Windows.Forms.TextBox();
-            this.btn_searchBillEdit = new System.Windows.Forms.Button();
-            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.txt_invoiceNoDisplayEdit = new System.Windows.Forms.TextBox();
-            this.dtpk_dateDisplayEdit = new System.Windows.Forms.DateTimePicker();
-            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.txtbx_transportDisplayEdit = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.txtbx_driverNoDisplayEdit = new System.Windows.Forms.TextBox();
-            this.txtbx_licNoDisplayEdit = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.txtbx_driverNameDisplayEdit = new System.Windows.Forms.TextBox();
-            this.txtbx_truckNumberDisplayEdit = new System.Windows.Forms.TextBox();
-            this.txtbx_brokerNameDisplayEdit = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.txtbx_customerPlaceDisplayEdit = new System.Windows.Forms.TextBox();
-            this.txtbx_customerNameDisplayEdit = new System.Windows.Forms.TextBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox17 = new System.Windows.Forms.GroupBox();
+            this.txtbx_freightAmountEdit = new System.Windows.Forms.TextBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.txt_freightRateEdit = new System.Windows.Forms.TextBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.txtbx_RsWordsEdit = new System.Windows.Forms.TextBox();
+            this.label54 = new System.Windows.Forms.Label();
             this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
             this.txtbx_totalAmountEdit = new System.Windows.Forms.TextBox();
@@ -245,57 +207,58 @@
             this.txtbx_insuranceEdit = new System.Windows.Forms.TextBox();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
-            this.groupBox17 = new System.Windows.Forms.GroupBox();
-            this.txtbx_freightAmountEdit = new System.Windows.Forms.TextBox();
-            this.label52 = new System.Windows.Forms.Label();
-            this.txt_freightRateEdit = new System.Windows.Forms.TextBox();
-            this.label53 = new System.Windows.Forms.Label();
-            this.txtbx_RsWordsEdit = new System.Windows.Forms.TextBox();
-            this.label54 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_delete = new System.Windows.Forms.Button();
-            this.btn_cancelDelete = new System.Windows.Forms.Button();
-            this.label55 = new System.Windows.Forms.Label();
-            this.txtbx_enterInvoiceDelete = new System.Windows.Forms.TextBox();
-            this.btn_viewBillDelete = new System.Windows.Forms.Button();
-            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox18 = new System.Windows.Forms.GroupBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.groupBox19 = new System.Windows.Forms.GroupBox();
-            this.txtbx_dateDelete = new System.Windows.Forms.TextBox();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.txtbx_invoiceNoDelete = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox20 = new System.Windows.Forms.GroupBox();
-            this.txtbx_transportDelete = new System.Windows.Forms.TextBox();
-            this.label59 = new System.Windows.Forms.Label();
-            this.txtbx_driverNoDelete = new System.Windows.Forms.TextBox();
-            this.txtbx_LicNoDelete = new System.Windows.Forms.TextBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.txtbx_driverNameDelete = new System.Windows.Forms.TextBox();
-            this.txtbx_truckNoDelete = new System.Windows.Forms.TextBox();
-            this.txtbx_brokerNameDelete = new System.Windows.Forms.TextBox();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.txtbx_customerPlaceDelete = new System.Windows.Forms.TextBox();
-            this.txtbx_customerNameDelete = new System.Windows.Forms.TextBox();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
-            this.groupBox22 = new System.Windows.Forms.GroupBox();
-            this.datagrid_billDetailsDelete = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.txtbx_transportDisplayEdit = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.txtbx_driverNoDisplayEdit = new System.Windows.Forms.TextBox();
+            this.txtbx_licNoDisplayEdit = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.txtbx_driverNameDisplayEdit = new System.Windows.Forms.TextBox();
+            this.txtbx_truckNumberDisplayEdit = new System.Windows.Forms.TextBox();
+            this.txtbx_brokerNameDisplayEdit = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.txtbx_customerPlaceDisplayEdit = new System.Windows.Forms.TextBox();
+            this.txtbx_customerNameDisplayEdit = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.dtpk_dateDisplayEdit = new System.Windows.Forms.DateTimePicker();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.txt_invoiceNoDisplayEdit = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_saveEdit = new System.Windows.Forms.Button();
+            this.btn_resetEdit = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtbx_enterInvoiceEdit = new System.Windows.Forms.TextBox();
+            this.btn_searchBillEdit = new System.Windows.Forms.Button();
+            this.tbp_deleteBill = new System.Windows.Forms.TabPage();
+            this.groupBox25 = new System.Windows.Forms.GroupBox();
+            this.txtbx_freightAmountDelete = new System.Windows.Forms.TextBox();
+            this.label80 = new System.Windows.Forms.Label();
+            this.txtbx_freightRateDelete = new System.Windows.Forms.TextBox();
+            this.label81 = new System.Windows.Forms.Label();
+            this.txtbx_RsWordsDelete = new System.Windows.Forms.TextBox();
+            this.label82 = new System.Windows.Forms.Label();
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox23 = new System.Windows.Forms.GroupBox();
             this.txtbx_totalAmountDelete = new System.Windows.Forms.TextBox();
@@ -319,13 +282,50 @@
             this.txtbx_insuranceDelete = new System.Windows.Forms.TextBox();
             this.label78 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
-            this.groupBox25 = new System.Windows.Forms.GroupBox();
-            this.txtbx_freightAmountDelete = new System.Windows.Forms.TextBox();
-            this.label80 = new System.Windows.Forms.Label();
-            this.txtbx_freightRateDelete = new System.Windows.Forms.TextBox();
-            this.label81 = new System.Windows.Forms.Label();
-            this.txtbx_RsWordsDelete = new System.Windows.Forms.TextBox();
-            this.label82 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox22 = new System.Windows.Forms.GroupBox();
+            this.datagrid_billDetailsDelete = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox20 = new System.Windows.Forms.GroupBox();
+            this.txtbx_transportDelete = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.txtbx_driverNoDelete = new System.Windows.Forms.TextBox();
+            this.txtbx_LicNoDelete = new System.Windows.Forms.TextBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.txtbx_driverNameDelete = new System.Windows.Forms.TextBox();
+            this.txtbx_truckNoDelete = new System.Windows.Forms.TextBox();
+            this.txtbx_brokerNameDelete = new System.Windows.Forms.TextBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.groupBox21 = new System.Windows.Forms.GroupBox();
+            this.txtbx_customerPlaceDelete = new System.Windows.Forms.TextBox();
+            this.txtbx_customerNameDelete = new System.Windows.Forms.TextBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.groupBox19 = new System.Windows.Forms.GroupBox();
+            this.txtbx_dateDelete = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.txtbx_invoiceNoDelete = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_delete = new System.Windows.Forms.Button();
+            this.btn_cancelDelete = new System.Windows.Forms.Button();
+            this.label55 = new System.Windows.Forms.Label();
+            this.txtbx_enterInvoiceDelete = new System.Windows.Forms.TextBox();
+            this.btn_viewBillDelete = new System.Windows.Forms.Button();
             this.tbctrl_mainTabControl.SuspendLayout();
             this.tbp_newBill.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -335,7 +335,7 @@
             this.grpbx_banckerInfo.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.grpbx_billDetails.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datagrid_orderDetails)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.grpbx_GSTIN.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -358,35 +358,35 @@
             this.groupBox3.SuspendLayout();
             this.tab_selectInvoice.SuspendLayout();
             this.tbp_editBill.SuspendLayout();
-            this.tbp_deleteBill.SuspendLayout();
-            this.tableLayoutPanel9.SuspendLayout();
-            this.tableLayoutPanel10.SuspendLayout();
-            this.groupBox10.SuspendLayout();
-            this.groupBox11.SuspendLayout();
-            this.tableLayoutPanel11.SuspendLayout();
-            this.groupBox12.SuspendLayout();
-            this.groupBox13.SuspendLayout();
-            this.tableLayoutPanel12.SuspendLayout();
-            this.groupBox14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox17.SuspendLayout();
             this.tableLayoutPanel13.SuspendLayout();
             this.groupBox15.SuspendLayout();
             this.groupBox16.SuspendLayout();
-            this.groupBox17.SuspendLayout();
-            this.tableLayoutPanel14.SuspendLayout();
-            this.tableLayoutPanel15.SuspendLayout();
-            this.groupBox18.SuspendLayout();
-            this.groupBox19.SuspendLayout();
-            this.tableLayoutPanel16.SuspendLayout();
-            this.groupBox20.SuspendLayout();
-            this.groupBox21.SuspendLayout();
-            this.tableLayoutPanel17.SuspendLayout();
-            this.groupBox22.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.datagrid_billDetailsDelete)).BeginInit();
+            this.tableLayoutPanel12.SuspendLayout();
+            this.groupBox14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.tableLayoutPanel11.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            this.tbp_deleteBill.SuspendLayout();
+            this.groupBox25.SuspendLayout();
             this.tableLayoutPanel18.SuspendLayout();
             this.groupBox23.SuspendLayout();
             this.groupBox24.SuspendLayout();
-            this.groupBox25.SuspendLayout();
+            this.tableLayoutPanel17.SuspendLayout();
+            this.groupBox22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.datagrid_billDetailsDelete)).BeginInit();
+            this.tableLayoutPanel16.SuspendLayout();
+            this.groupBox20.SuspendLayout();
+            this.groupBox21.SuspendLayout();
+            this.tableLayoutPanel15.SuspendLayout();
+            this.groupBox18.SuspendLayout();
+            this.groupBox19.SuspendLayout();
+            this.tableLayoutPanel14.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbctrl_mainTabControl
@@ -461,7 +461,7 @@
             // grpbx_valuesInWords
             // 
             this.grpbx_valuesInWords.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbx_valuesInWords.Controls.Add(this.textBox13);
+            this.grpbx_valuesInWords.Controls.Add(this.txtbx_freightAmount);
             this.grpbx_valuesInWords.Controls.Add(this.lbl_freightAmount);
             this.grpbx_valuesInWords.Controls.Add(this.txtbx_freightRate);
             this.grpbx_valuesInWords.Controls.Add(this.lbl_freightRate);
@@ -474,13 +474,13 @@
             this.grpbx_valuesInWords.TabStop = false;
             this.grpbx_valuesInWords.Text = "Freight Rate";
             // 
-            // textBox13
+            // txtbx_freightAmount
             // 
-            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox13.Location = new System.Drawing.Point(126, 64);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(694, 20);
-            this.textBox13.TabIndex = 5;
+            this.txtbx_freightAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_freightAmount.Location = new System.Drawing.Point(126, 64);
+            this.txtbx_freightAmount.Name = "txtbx_freightAmount";
+            this.txtbx_freightAmount.Size = new System.Drawing.Size(694, 20);
+            this.txtbx_freightAmount.TabIndex = 5;
             // 
             // lbl_freightAmount
             // 
@@ -547,11 +547,11 @@
             // grpbx_totals
             // 
             this.grpbx_totals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbx_totals.Controls.Add(this.textBox10);
-            this.grpbx_totals.Controls.Add(this.textBox9);
-            this.grpbx_totals.Controls.Add(this.textBox8);
-            this.grpbx_totals.Controls.Add(this.textBox7);
-            this.grpbx_totals.Controls.Add(this.textBox6);
+            this.grpbx_totals.Controls.Add(this.txtbx_totalAmount);
+            this.grpbx_totals.Controls.Add(this.txtbx_totalWeight);
+            this.grpbx_totals.Controls.Add(this.txtbx_totalPkg);
+            this.grpbx_totals.Controls.Add(this.txtbx_totalQtl);
+            this.grpbx_totals.Controls.Add(this.txtbx_insuranceAmount);
             this.grpbx_totals.Controls.Add(this.lbl_totalAmount);
             this.grpbx_totals.Controls.Add(this.lbl_weight);
             this.grpbx_totals.Controls.Add(this.lbl_totalPkg);
@@ -564,45 +564,45 @@
             this.grpbx_totals.TabStop = false;
             this.grpbx_totals.Text = "Totals";
             // 
-            // textBox10
+            // txtbx_totalAmount
             // 
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox10.Location = new System.Drawing.Point(83, 100);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(320, 20);
-            this.textBox10.TabIndex = 22;
+            this.txtbx_totalAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_totalAmount.Location = new System.Drawing.Point(83, 100);
+            this.txtbx_totalAmount.Name = "txtbx_totalAmount";
+            this.txtbx_totalAmount.Size = new System.Drawing.Size(320, 20);
+            this.txtbx_totalAmount.TabIndex = 22;
             // 
-            // textBox9
+            // txtbx_totalWeight
             // 
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox9.Location = new System.Drawing.Point(83, 78);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(320, 20);
-            this.textBox9.TabIndex = 22;
+            this.txtbx_totalWeight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_totalWeight.Location = new System.Drawing.Point(83, 78);
+            this.txtbx_totalWeight.Name = "txtbx_totalWeight";
+            this.txtbx_totalWeight.Size = new System.Drawing.Size(320, 20);
+            this.txtbx_totalWeight.TabIndex = 22;
             // 
-            // textBox8
+            // txtbx_totalPkg
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(83, 56);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(320, 20);
-            this.textBox8.TabIndex = 22;
+            this.txtbx_totalPkg.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_totalPkg.Location = new System.Drawing.Point(83, 56);
+            this.txtbx_totalPkg.Name = "txtbx_totalPkg";
+            this.txtbx_totalPkg.Size = new System.Drawing.Size(320, 20);
+            this.txtbx_totalPkg.TabIndex = 22;
             // 
-            // textBox7
+            // txtbx_totalQtl
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(83, 34);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(320, 20);
-            this.textBox7.TabIndex = 21;
+            this.txtbx_totalQtl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_totalQtl.Location = new System.Drawing.Point(83, 34);
+            this.txtbx_totalQtl.Name = "txtbx_totalQtl";
+            this.txtbx_totalQtl.Size = new System.Drawing.Size(320, 20);
+            this.txtbx_totalQtl.TabIndex = 21;
             // 
-            // textBox6
+            // txtbx_insuranceAmount
             // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.Location = new System.Drawing.Point(83, 12);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(320, 20);
-            this.textBox6.TabIndex = 20;
+            this.txtbx_insuranceAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_insuranceAmount.Location = new System.Drawing.Point(83, 12);
+            this.txtbx_insuranceAmount.Name = "txtbx_insuranceAmount";
+            this.txtbx_insuranceAmount.Size = new System.Drawing.Size(320, 20);
+            this.txtbx_insuranceAmount.TabIndex = 20;
             // 
             // lbl_totalAmount
             // 
@@ -663,8 +663,8 @@
             this.grpbx_banckerInfo.Controls.Add(this.lbl_IFSC);
             this.grpbx_banckerInfo.Controls.Add(this.lbl_AC);
             this.grpbx_banckerInfo.Controls.Add(this.lbl_bank);
-            this.grpbx_banckerInfo.Controls.Add(this.textBox11);
-            this.grpbx_banckerInfo.Controls.Add(this.textBox12);
+            this.grpbx_banckerInfo.Controls.Add(this.txtbx_policyNo);
+            this.grpbx_banckerInfo.Controls.Add(this.txtbx_insurance);
             this.grpbx_banckerInfo.Controls.Add(this.lbl_policyNumber);
             this.grpbx_banckerInfo.Controls.Add(this.label2);
             this.grpbx_banckerInfo.Location = new System.Drawing.Point(3, 3);
@@ -743,21 +743,21 @@
             this.lbl_bank.TabIndex = 26;
             this.lbl_bank.Text = "Bank:";
             // 
-            // textBox11
+            // txtbx_policyNo
             // 
-            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox11.Location = new System.Drawing.Point(81, 37);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(319, 20);
-            this.textBox11.TabIndex = 25;
+            this.txtbx_policyNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_policyNo.Location = new System.Drawing.Point(81, 37);
+            this.txtbx_policyNo.Name = "txtbx_policyNo";
+            this.txtbx_policyNo.Size = new System.Drawing.Size(319, 20);
+            this.txtbx_policyNo.TabIndex = 25;
             // 
-            // textBox12
+            // txtbx_insurance
             // 
-            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox12.Location = new System.Drawing.Point(81, 15);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(319, 20);
-            this.textBox12.TabIndex = 24;
+            this.txtbx_insurance.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_insurance.Location = new System.Drawing.Point(81, 15);
+            this.txtbx_insurance.Name = "txtbx_insurance";
+            this.txtbx_insurance.Size = new System.Drawing.Size(319, 20);
+            this.txtbx_insurance.TabIndex = 24;
             // 
             // lbl_policyNumber
             // 
@@ -797,7 +797,7 @@
             // 
             this.grpbx_billDetails.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.grpbx_billDetails.AutoSize = true;
-            this.grpbx_billDetails.Controls.Add(this.dataGridView1);
+            this.grpbx_billDetails.Controls.Add(this.datagrid_orderDetails);
             this.grpbx_billDetails.Location = new System.Drawing.Point(3, 3);
             this.grpbx_billDetails.Name = "grpbx_billDetails";
             this.grpbx_billDetails.Size = new System.Drawing.Size(830, 251);
@@ -805,11 +805,11 @@
             this.grpbx_billDetails.TabStop = false;
             this.grpbx_billDetails.Text = "Bill Details";
             // 
-            // dataGridView1
+            // datagrid_orderDetails
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.datagrid_orderDetails.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.datagrid_orderDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datagrid_orderDetails.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.serialNumber,
             this.goodsDescription,
             this.Qtl,
@@ -818,10 +818,10 @@
             this.ratePerQtl,
             this.AmountR,
             this.AmountP});
-            this.dataGridView1.Location = new System.Drawing.Point(6, 23);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(818, 217);
-            this.dataGridView1.TabIndex = 8;
+            this.datagrid_orderDetails.Location = new System.Drawing.Point(6, 23);
+            this.datagrid_orderDetails.Name = "datagrid_orderDetails";
+            this.datagrid_orderDetails.Size = new System.Drawing.Size(818, 217);
+            this.datagrid_orderDetails.TabIndex = 8;
             // 
             // serialNumber
             // 
@@ -991,14 +991,14 @@
             // grpbx_driverInfo
             // 
             this.grpbx_driverInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbx_driverInfo.Controls.Add(this.textBox5);
+            this.grpbx_driverInfo.Controls.Add(this.txtbx_transport);
             this.grpbx_driverInfo.Controls.Add(this.lbl_transport);
-            this.grpbx_driverInfo.Controls.Add(this.textBox4);
-            this.grpbx_driverInfo.Controls.Add(this.textBox3);
+            this.grpbx_driverInfo.Controls.Add(this.txtbx_driverNo);
+            this.grpbx_driverInfo.Controls.Add(this.txtbx_licNo);
             this.grpbx_driverInfo.Controls.Add(this.lbl_driverNumber);
             this.grpbx_driverInfo.Controls.Add(this.lbl_driverLic);
-            this.grpbx_driverInfo.Controls.Add(this.textBox2);
-            this.grpbx_driverInfo.Controls.Add(this.textBox1);
+            this.grpbx_driverInfo.Controls.Add(this.txtbx_driverName);
+            this.grpbx_driverInfo.Controls.Add(this.txtbx_truckNo);
             this.grpbx_driverInfo.Controls.Add(this.txtbx_brokerName);
             this.grpbx_driverInfo.Controls.Add(this.lbl_brokerName);
             this.grpbx_driverInfo.Controls.Add(this.lbl_driverName);
@@ -1010,13 +1010,13 @@
             this.grpbx_driverInfo.TabStop = false;
             this.grpbx_driverInfo.Text = "Driver Info";
             // 
-            // textBox5
+            // txtbx_transport
             // 
-            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5.Location = new System.Drawing.Point(79, 153);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(373, 20);
-            this.textBox5.TabIndex = 10;
+            this.txtbx_transport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_transport.Location = new System.Drawing.Point(79, 153);
+            this.txtbx_transport.Name = "txtbx_transport";
+            this.txtbx_transport.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_transport.TabIndex = 10;
             // 
             // lbl_transport
             // 
@@ -1028,21 +1028,21 @@
             this.lbl_transport.TabIndex = 12;
             this.lbl_transport.Text = "Transport:";
             // 
-            // textBox4
+            // txtbx_driverNo
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(79, 128);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(373, 20);
-            this.textBox4.TabIndex = 9;
+            this.txtbx_driverNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_driverNo.Location = new System.Drawing.Point(79, 128);
+            this.txtbx_driverNo.Name = "txtbx_driverNo";
+            this.txtbx_driverNo.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_driverNo.TabIndex = 9;
             // 
-            // textBox3
+            // txtbx_licNo
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(80, 101);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(372, 20);
-            this.textBox3.TabIndex = 8;
+            this.txtbx_licNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_licNo.Location = new System.Drawing.Point(80, 101);
+            this.txtbx_licNo.Name = "txtbx_licNo";
+            this.txtbx_licNo.Size = new System.Drawing.Size(372, 20);
+            this.txtbx_licNo.TabIndex = 8;
             // 
             // lbl_driverNumber
             // 
@@ -1064,21 +1064,21 @@
             this.lbl_driverLic.TabIndex = 10;
             this.lbl_driverLic.Text = "License No.:";
             // 
-            // textBox2
+            // txtbx_driverName
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(79, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(373, 20);
-            this.textBox2.TabIndex = 7;
+            this.txtbx_driverName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_driverName.Location = new System.Drawing.Point(79, 75);
+            this.txtbx_driverName.Name = "txtbx_driverName";
+            this.txtbx_driverName.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_driverName.TabIndex = 7;
             // 
-            // textBox1
+            // txtbx_truckNo
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(79, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(373, 20);
-            this.textBox1.TabIndex = 6;
+            this.txtbx_truckNo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_truckNo.Location = new System.Drawing.Point(79, 51);
+            this.txtbx_truckNo.Name = "txtbx_truckNo";
+            this.txtbx_truckNo.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_truckNo.TabIndex = 6;
             // 
             // txtbx_brokerName
             // 
@@ -1184,7 +1184,6 @@
             this.tbp_viewBill.TabIndex = 1;
             this.tbp_viewBill.Text = "View bill";
             this.tbp_viewBill.UseVisualStyleBackColor = true;
-            this.tbp_viewBill.Click += new System.EventHandler(this.tbp_viewBill_Click);
             // 
             // groupBox9
             // 
@@ -1957,7 +1956,7 @@
             this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.85185F));
             this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
-            this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 166F));
+            this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
             this.tab_selectInvoice.Controls.Add(this.btn_exportToPdf, 4, 0);
             this.tab_selectInvoice.Controls.Add(this.btn_reset, 3, 0);
             this.tab_selectInvoice.Controls.Add(this.lbl_enterInvoice, 0, 0);
@@ -1974,9 +1973,9 @@
             // 
             this.btn_exportToPdf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_exportToPdf.Enabled = false;
-            this.btn_exportToPdf.Location = new System.Drawing.Point(672, 3);
+            this.btn_exportToPdf.Location = new System.Drawing.Point(671, 3);
             this.btn_exportToPdf.Name = "btn_exportToPdf";
-            this.btn_exportToPdf.Size = new System.Drawing.Size(161, 23);
+            this.btn_exportToPdf.Size = new System.Drawing.Size(162, 23);
             this.btn_exportToPdf.TabIndex = 4;
             this.btn_exportToPdf.Text = "Export to PDF";
             this.btn_exportToPdf.UseVisualStyleBackColor = true;
@@ -1984,7 +1983,7 @@
             // btn_reset
             // 
             this.btn_reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_reset.Location = new System.Drawing.Point(543, 3);
+            this.btn_reset.Location = new System.Drawing.Point(542, 3);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(123, 23);
             this.btn_reset.TabIndex = 3;
@@ -2006,14 +2005,14 @@
             this.txtb_enterInvoice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtb_enterInvoice.Location = new System.Drawing.Point(118, 4);
             this.txtb_enterInvoice.Name = "txtb_enterInvoice";
-            this.txtb_enterInvoice.Size = new System.Drawing.Size(288, 20);
+            this.txtb_enterInvoice.Size = new System.Drawing.Size(287, 20);
             this.txtb_enterInvoice.TabIndex = 1;
             // 
             // btn_searchBill
             // 
             this.btn_searchBill.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_searchBill.Enabled = false;
-            this.btn_searchBill.Location = new System.Drawing.Point(412, 3);
+            this.btn_searchBill.Location = new System.Drawing.Point(411, 3);
             this.btn_searchBill.Name = "btn_searchBill";
             this.btn_searchBill.Size = new System.Drawing.Size(125, 23);
             this.btn_searchBill.TabIndex = 2;
@@ -2035,494 +2034,78 @@
             this.tbp_editBill.Text = "Edit bill";
             this.tbp_editBill.UseVisualStyleBackColor = true;
             // 
-            // tbp_deleteBill
-            // 
-            this.tbp_deleteBill.Controls.Add(this.groupBox25);
-            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel18);
-            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel17);
-            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel16);
-            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel15);
-            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel14);
-            this.tbp_deleteBill.Location = new System.Drawing.Point(4, 22);
-            this.tbp_deleteBill.Name = "tbp_deleteBill";
-            this.tbp_deleteBill.Size = new System.Drawing.Size(858, 844);
-            this.tbp_deleteBill.TabIndex = 3;
-            this.tbp_deleteBill.Text = "Delete bill";
-            this.tbp_deleteBill.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel9.ColumnCount = 5;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.14815F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.85185F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 166F));
-            this.tableLayoutPanel9.Controls.Add(this.btn_saveEdit, 4, 0);
-            this.tableLayoutPanel9.Controls.Add(this.btn_resetEdit, 3, 0);
-            this.tableLayoutPanel9.Controls.Add(this.label3, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.txtbx_enterInvoiceEdit, 1, 0);
-            this.tableLayoutPanel9.Controls.Add(this.btn_searchBillEdit, 2, 0);
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(11, 6);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 1;
-            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(836, 29);
-            this.tableLayoutPanel9.TabIndex = 1;
-            // 
-            // btn_saveEdit
-            // 
-            this.btn_saveEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_saveEdit.Enabled = false;
-            this.btn_saveEdit.Location = new System.Drawing.Point(672, 3);
-            this.btn_saveEdit.Name = "btn_saveEdit";
-            this.btn_saveEdit.Size = new System.Drawing.Size(161, 23);
-            this.btn_saveEdit.TabIndex = 4;
-            this.btn_saveEdit.Text = "Save";
-            this.btn_saveEdit.UseVisualStyleBackColor = true;
-            // 
-            // btn_resetEdit
-            // 
-            this.btn_resetEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_resetEdit.Location = new System.Drawing.Point(543, 3);
-            this.btn_resetEdit.Name = "btn_resetEdit";
-            this.btn_resetEdit.Size = new System.Drawing.Size(123, 23);
-            this.btn_resetEdit.TabIndex = 3;
-            this.btn_resetEdit.Text = "Reset";
-            this.btn_resetEdit.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 8);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Enter the invoice no.:";
-            // 
-            // txtbx_enterInvoiceEdit
-            // 
-            this.txtbx_enterInvoiceEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_enterInvoiceEdit.Location = new System.Drawing.Point(118, 4);
-            this.txtbx_enterInvoiceEdit.Name = "txtbx_enterInvoiceEdit";
-            this.txtbx_enterInvoiceEdit.Size = new System.Drawing.Size(288, 20);
-            this.txtbx_enterInvoiceEdit.TabIndex = 1;
-            // 
-            // btn_searchBillEdit
-            // 
-            this.btn_searchBillEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_searchBillEdit.Enabled = false;
-            this.btn_searchBillEdit.Location = new System.Drawing.Point(412, 3);
-            this.btn_searchBillEdit.Name = "btn_searchBillEdit";
-            this.btn_searchBillEdit.Size = new System.Drawing.Size(125, 23);
-            this.btn_searchBillEdit.TabIndex = 2;
-            this.btn_searchBillEdit.Text = "Search Bill";
-            this.btn_searchBillEdit.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel10
-            // 
-            this.tableLayoutPanel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel10.ColumnCount = 2;
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.79783F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.20216F));
-            this.tableLayoutPanel10.Controls.Add(this.groupBox10, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.groupBox11, 1, 0);
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(11, 41);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 1;
-            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(836, 71);
-            this.tableLayoutPanel10.TabIndex = 13;
-            // 
-            // groupBox10
-            // 
-            this.groupBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox10.Controls.Add(this.label4);
-            this.groupBox10.ForeColor = System.Drawing.Color.Red;
-            this.groupBox10.Location = new System.Drawing.Point(3, 18);
-            this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(226, 34);
-            this.groupBox10.TabIndex = 0;
-            this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "GSTIN No.:";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.Blue;
-            this.label4.Location = new System.Drawing.Point(6, 16);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "23BGMPP8430L1ZY";
-            // 
-            // groupBox11
-            // 
-            this.groupBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox11.Controls.Add(this.dtpk_dateDisplayEdit);
-            this.groupBox11.Controls.Add(this.label29);
-            this.groupBox11.Controls.Add(this.label30);
-            this.groupBox11.Controls.Add(this.txt_invoiceNoDisplayEdit);
-            this.groupBox11.ForeColor = System.Drawing.Color.Red;
-            this.groupBox11.Location = new System.Drawing.Point(235, 4);
-            this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(598, 62);
-            this.groupBox11.TabIndex = 10;
-            this.groupBox11.TabStop = false;
-            this.groupBox11.Text = "Bill Info:";
-            // 
-            // label29
-            // 
-            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(6, 16);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(96, 13);
-            this.label29.TabIndex = 2;
-            this.label29.Text = "Invoice Number";
-            // 
-            // label30
-            // 
-            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(6, 37);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(34, 13);
-            this.label30.TabIndex = 4;
-            this.label30.Text = "Date";
-            // 
-            // txt_invoiceNoDisplayEdit
-            // 
-            this.txt_invoiceNoDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_invoiceNoDisplayEdit.Enabled = false;
-            this.txt_invoiceNoDisplayEdit.Location = new System.Drawing.Point(108, 13);
-            this.txt_invoiceNoDisplayEdit.Name = "txt_invoiceNoDisplayEdit";
-            this.txt_invoiceNoDisplayEdit.ReadOnly = true;
-            this.txt_invoiceNoDisplayEdit.Size = new System.Drawing.Size(480, 20);
-            this.txt_invoiceNoDisplayEdit.TabIndex = 5;
-            // 
-            // dtpk_dateDisplayEdit
-            // 
-            this.dtpk_dateDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpk_dateDisplayEdit.Enabled = false;
-            this.dtpk_dateDisplayEdit.Location = new System.Drawing.Point(108, 36);
-            this.dtpk_dateDisplayEdit.Name = "dtpk_dateDisplayEdit";
-            this.dtpk_dateDisplayEdit.Size = new System.Drawing.Size(480, 20);
-            this.dtpk_dateDisplayEdit.TabIndex = 14;
-            this.dtpk_dateDisplayEdit.Value = new System.DateTime(2019, 1, 24, 15, 46, 14, 0);
-            // 
-            // tableLayoutPanel11
-            // 
-            this.tableLayoutPanel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel11.ColumnCount = 2;
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56F));
-            this.tableLayoutPanel11.Controls.Add(this.groupBox12, 1, 0);
-            this.tableLayoutPanel11.Controls.Add(this.groupBox13, 0, 0);
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(11, 118);
-            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-            this.tableLayoutPanel11.RowCount = 1;
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(837, 209);
-            this.tableLayoutPanel11.TabIndex = 14;
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox12.Controls.Add(this.txtbx_transportDisplayEdit);
-            this.groupBox12.Controls.Add(this.label31);
-            this.groupBox12.Controls.Add(this.txtbx_driverNoDisplayEdit);
-            this.groupBox12.Controls.Add(this.txtbx_licNoDisplayEdit);
-            this.groupBox12.Controls.Add(this.label32);
-            this.groupBox12.Controls.Add(this.label33);
-            this.groupBox12.Controls.Add(this.txtbx_driverNameDisplayEdit);
-            this.groupBox12.Controls.Add(this.txtbx_truckNumberDisplayEdit);
-            this.groupBox12.Controls.Add(this.txtbx_brokerNameDisplayEdit);
-            this.groupBox12.Controls.Add(this.label34);
-            this.groupBox12.Controls.Add(this.label35);
-            this.groupBox12.Controls.Add(this.label36);
-            this.groupBox12.Location = new System.Drawing.Point(371, 7);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(463, 194);
-            this.groupBox12.TabIndex = 2;
-            this.groupBox12.TabStop = false;
-            this.groupBox12.Text = "Driver Info";
-            // 
-            // txtbx_transportDisplayEdit
-            // 
-            this.txtbx_transportDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_transportDisplayEdit.Enabled = false;
-            this.txtbx_transportDisplayEdit.Location = new System.Drawing.Point(79, 153);
-            this.txtbx_transportDisplayEdit.Name = "txtbx_transportDisplayEdit";
-            this.txtbx_transportDisplayEdit.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_transportDisplayEdit.TabIndex = 14;
-            // 
-            // label31
-            // 
-            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(7, 156);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(55, 13);
-            this.label31.TabIndex = 12;
-            this.label31.Text = "Transport:";
-            // 
-            // txtbx_driverNoDisplayEdit
-            // 
-            this.txtbx_driverNoDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_driverNoDisplayEdit.Enabled = false;
-            this.txtbx_driverNoDisplayEdit.Location = new System.Drawing.Point(79, 128);
-            this.txtbx_driverNoDisplayEdit.Name = "txtbx_driverNoDisplayEdit";
-            this.txtbx_driverNoDisplayEdit.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_driverNoDisplayEdit.TabIndex = 13;
-            // 
-            // txtbx_licNoDisplayEdit
-            // 
-            this.txtbx_licNoDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_licNoDisplayEdit.Enabled = false;
-            this.txtbx_licNoDisplayEdit.Location = new System.Drawing.Point(80, 101);
-            this.txtbx_licNoDisplayEdit.Name = "txtbx_licNoDisplayEdit";
-            this.txtbx_licNoDisplayEdit.Size = new System.Drawing.Size(372, 20);
-            this.txtbx_licNoDisplayEdit.TabIndex = 12;
-            // 
-            // label32
-            // 
-            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(6, 131);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(58, 13);
-            this.label32.TabIndex = 11;
-            this.label32.Text = "Driver No.:";
-            // 
-            // label33
-            // 
-            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(7, 103);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(67, 13);
-            this.label33.TabIndex = 10;
-            this.label33.Text = "License No.:";
-            // 
-            // txtbx_driverNameDisplayEdit
-            // 
-            this.txtbx_driverNameDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_driverNameDisplayEdit.Enabled = false;
-            this.txtbx_driverNameDisplayEdit.Location = new System.Drawing.Point(79, 75);
-            this.txtbx_driverNameDisplayEdit.Name = "txtbx_driverNameDisplayEdit";
-            this.txtbx_driverNameDisplayEdit.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_driverNameDisplayEdit.TabIndex = 11;
-            // 
-            // txtbx_truckNumberDisplayEdit
-            // 
-            this.txtbx_truckNumberDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_truckNumberDisplayEdit.Enabled = false;
-            this.txtbx_truckNumberDisplayEdit.Location = new System.Drawing.Point(79, 51);
-            this.txtbx_truckNumberDisplayEdit.Name = "txtbx_truckNumberDisplayEdit";
-            this.txtbx_truckNumberDisplayEdit.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_truckNumberDisplayEdit.TabIndex = 10;
-            // 
-            // txtbx_brokerNameDisplayEdit
-            // 
-            this.txtbx_brokerNameDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_brokerNameDisplayEdit.Enabled = false;
-            this.txtbx_brokerNameDisplayEdit.Location = new System.Drawing.Point(79, 26);
-            this.txtbx_brokerNameDisplayEdit.Name = "txtbx_brokerNameDisplayEdit";
-            this.txtbx_brokerNameDisplayEdit.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_brokerNameDisplayEdit.TabIndex = 9;
-            // 
-            // label34
-            // 
-            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(7, 28);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(41, 13);
-            this.label34.TabIndex = 7;
-            this.label34.Text = "Broker:";
-            // 
-            // label35
-            // 
-            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(7, 79);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(72, 13);
-            this.label35.TabIndex = 9;
-            this.label35.Text = "Driver Name: ";
-            // 
-            // label36
-            // 
-            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(7, 53);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(58, 13);
-            this.label36.TabIndex = 8;
-            this.label36.Text = "Truck No.:";
-            // 
-            // groupBox13
-            // 
-            this.groupBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox13.Controls.Add(this.txtbx_customerPlaceDisplayEdit);
-            this.groupBox13.Controls.Add(this.txtbx_customerNameDisplayEdit);
-            this.groupBox13.Controls.Add(this.label37);
-            this.groupBox13.Controls.Add(this.label38);
-            this.groupBox13.Location = new System.Drawing.Point(3, 7);
-            this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(362, 194);
-            this.groupBox13.TabIndex = 6;
-            this.groupBox13.TabStop = false;
-            this.groupBox13.Text = "Customer Info";
-            // 
-            // txtbx_customerPlaceDisplayEdit
-            // 
-            this.txtbx_customerPlaceDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_customerPlaceDisplayEdit.Enabled = false;
-            this.txtbx_customerPlaceDisplayEdit.Location = new System.Drawing.Point(42, 75);
-            this.txtbx_customerPlaceDisplayEdit.Multiline = true;
-            this.txtbx_customerPlaceDisplayEdit.Name = "txtbx_customerPlaceDisplayEdit";
-            this.txtbx_customerPlaceDisplayEdit.Size = new System.Drawing.Size(307, 98);
-            this.txtbx_customerPlaceDisplayEdit.TabIndex = 8;
-            // 
-            // txtbx_customerNameDisplayEdit
-            // 
-            this.txtbx_customerNameDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_customerNameDisplayEdit.Enabled = false;
-            this.txtbx_customerNameDisplayEdit.Location = new System.Drawing.Point(45, 30);
-            this.txtbx_customerNameDisplayEdit.Name = "txtbx_customerNameDisplayEdit";
-            this.txtbx_customerNameDisplayEdit.Size = new System.Drawing.Size(304, 20);
-            this.txtbx_customerNameDisplayEdit.TabIndex = 7;
-            // 
-            // label37
-            // 
-            this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(3, 114);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(37, 13);
-            this.label37.TabIndex = 1;
-            this.label37.Text = "Place:";
-            // 
-            // label38
-            // 
-            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(6, 33);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(38, 13);
-            this.label38.TabIndex = 0;
-            this.label38.Text = "Name:";
-            // 
-            // tableLayoutPanel12
-            // 
-            this.tableLayoutPanel12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel12.ColumnCount = 1;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Controls.Add(this.groupBox14, 0, 0);
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(11, 333);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 1;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(836, 257);
-            this.tableLayoutPanel12.TabIndex = 15;
-            // 
-            // groupBox14
-            // 
-            this.groupBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox14.AutoSize = true;
-            this.groupBox14.Controls.Add(this.dataGridView2);
-            this.groupBox14.Location = new System.Drawing.Point(3, 3);
-            this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(830, 251);
-            this.groupBox14.TabIndex = 7;
-            this.groupBox14.TabStop = false;
-            this.groupBox14.Text = "Bill Details";
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12,
-            this.dataGridViewTextBoxColumn13,
-            this.dataGridViewTextBoxColumn14,
-            this.dataGridViewTextBoxColumn15,
-            this.dataGridViewTextBoxColumn16});
-            this.dataGridView2.Enabled = false;
-            this.dataGridView2.Location = new System.Drawing.Point(6, 23);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(818, 217);
-            this.dataGridView2.TabIndex = 15;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.FillWeight = 30F;
-            this.dataGridViewTextBoxColumn9.HeaderText = "S. No.";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.FillWeight = 657.8682F;
-            this.dataGridViewTextBoxColumn10.HeaderText = "Goods Description";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.Width = 360;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.FillWeight = 7.081353F;
-            this.dataGridViewTextBoxColumn11.HeaderText = "Qtl.";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.Width = 50;
-            // 
-            // dataGridViewTextBoxColumn12
-            // 
-            this.dataGridViewTextBoxColumn12.FillWeight = 9.376002F;
-            this.dataGridViewTextBoxColumn12.HeaderText = "Pkg.";
-            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.Width = 50;
-            // 
-            // dataGridViewTextBoxColumn13
-            // 
-            this.dataGridViewTextBoxColumn13.FillWeight = 12.43425F;
-            this.dataGridViewTextBoxColumn13.HeaderText = "Weight";
-            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.Width = 50;
-            // 
-            // dataGridViewTextBoxColumn14
-            // 
-            this.dataGridViewTextBoxColumn14.FillWeight = 21.20576F;
-            this.dataGridViewTextBoxColumn14.HeaderText = "Rate per Qtl.";
-            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            this.dataGridViewTextBoxColumn14.Width = 60;
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.FillWeight = 47.01535F;
-            this.dataGridViewTextBoxColumn15.HeaderText = "Amount(R)";
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            this.dataGridViewTextBoxColumn15.Width = 90;
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.FillWeight = 20.72976F;
-            this.dataGridViewTextBoxColumn16.HeaderText = "P.";
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.Width = 50;
+            // groupBox17
+            // 
+            this.groupBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox17.Controls.Add(this.txtbx_freightAmountEdit);
+            this.groupBox17.Controls.Add(this.label52);
+            this.groupBox17.Controls.Add(this.txt_freightRateEdit);
+            this.groupBox17.Controls.Add(this.label53);
+            this.groupBox17.Controls.Add(this.txtbx_RsWordsEdit);
+            this.groupBox17.Controls.Add(this.label54);
+            this.groupBox17.Location = new System.Drawing.Point(11, 732);
+            this.groupBox17.Name = "groupBox17";
+            this.groupBox17.Size = new System.Drawing.Size(836, 90);
+            this.groupBox17.TabIndex = 17;
+            this.groupBox17.TabStop = false;
+            this.groupBox17.Text = "Freight Rate";
+            // 
+            // txtbx_freightAmountEdit
+            // 
+            this.txtbx_freightAmountEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_freightAmountEdit.Enabled = false;
+            this.txtbx_freightAmountEdit.Location = new System.Drawing.Point(126, 64);
+            this.txtbx_freightAmountEdit.Name = "txtbx_freightAmountEdit";
+            this.txtbx_freightAmountEdit.Size = new System.Drawing.Size(700, 20);
+            this.txtbx_freightAmountEdit.TabIndex = 25;
+            // 
+            // label52
+            // 
+            this.label52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(3, 67);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(114, 13);
+            this.label52.TabIndex = 4;
+            this.label52.Text = "Freight Amount @ Rs.:";
+            // 
+            // txt_freightRateEdit
+            // 
+            this.txt_freightRateEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_freightRateEdit.Enabled = false;
+            this.txt_freightRateEdit.Location = new System.Drawing.Point(111, 39);
+            this.txt_freightRateEdit.Name = "txt_freightRateEdit";
+            this.txt_freightRateEdit.Size = new System.Drawing.Size(715, 20);
+            this.txt_freightRateEdit.TabIndex = 24;
+            // 
+            // label53
+            // 
+            this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(4, 42);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(101, 13);
+            this.label53.TabIndex = 2;
+            this.label53.Text = "Freight Rate @ Rs.:";
+            // 
+            // txtbx_RsWordsEdit
+            // 
+            this.txtbx_RsWordsEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_RsWordsEdit.Enabled = false;
+            this.txtbx_RsWordsEdit.Location = new System.Drawing.Point(81, 13);
+            this.txtbx_RsWordsEdit.Name = "txtbx_RsWordsEdit";
+            this.txtbx_RsWordsEdit.Size = new System.Drawing.Size(745, 20);
+            this.txtbx_RsWordsEdit.TabIndex = 23;
+            // 
+            // label54
+            // 
+            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(3, 16);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(74, 13);
+            this.label54.TabIndex = 0;
+            this.label54.Text = "Rs. (in words):";
             // 
             // tableLayoutPanel13
             // 
@@ -2782,571 +2365,570 @@
             this.label51.TabIndex = 22;
             this.label51.Text = "Insurance:";
             // 
-            // groupBox17
+            // tableLayoutPanel12
             // 
-            this.groupBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox17.Controls.Add(this.txtbx_freightAmountEdit);
-            this.groupBox17.Controls.Add(this.label52);
-            this.groupBox17.Controls.Add(this.txt_freightRateEdit);
-            this.groupBox17.Controls.Add(this.label53);
-            this.groupBox17.Controls.Add(this.txtbx_RsWordsEdit);
-            this.groupBox17.Controls.Add(this.label54);
-            this.groupBox17.Location = new System.Drawing.Point(11, 732);
-            this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(836, 90);
-            this.groupBox17.TabIndex = 17;
-            this.groupBox17.TabStop = false;
-            this.groupBox17.Text = "Freight Rate";
-            // 
-            // txtbx_freightAmountEdit
-            // 
-            this.txtbx_freightAmountEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_freightAmountEdit.Enabled = false;
-            this.txtbx_freightAmountEdit.Location = new System.Drawing.Point(126, 64);
-            this.txtbx_freightAmountEdit.Name = "txtbx_freightAmountEdit";
-            this.txtbx_freightAmountEdit.Size = new System.Drawing.Size(700, 20);
-            this.txtbx_freightAmountEdit.TabIndex = 25;
-            // 
-            // label52
-            // 
-            this.label52.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(3, 67);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(114, 13);
-            this.label52.TabIndex = 4;
-            this.label52.Text = "Freight Amount @ Rs.:";
-            // 
-            // txt_freightRateEdit
-            // 
-            this.txt_freightRateEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_freightRateEdit.Enabled = false;
-            this.txt_freightRateEdit.Location = new System.Drawing.Point(111, 39);
-            this.txt_freightRateEdit.Name = "txt_freightRateEdit";
-            this.txt_freightRateEdit.Size = new System.Drawing.Size(715, 20);
-            this.txt_freightRateEdit.TabIndex = 24;
-            // 
-            // label53
-            // 
-            this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(4, 42);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(101, 13);
-            this.label53.TabIndex = 2;
-            this.label53.Text = "Freight Rate @ Rs.:";
-            // 
-            // txtbx_RsWordsEdit
-            // 
-            this.txtbx_RsWordsEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_RsWordsEdit.Enabled = false;
-            this.txtbx_RsWordsEdit.Location = new System.Drawing.Point(81, 13);
-            this.txtbx_RsWordsEdit.Name = "txtbx_RsWordsEdit";
-            this.txtbx_RsWordsEdit.Size = new System.Drawing.Size(745, 20);
-            this.txtbx_RsWordsEdit.TabIndex = 23;
-            // 
-            // label54
-            // 
-            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(3, 16);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(74, 13);
-            this.label54.TabIndex = 0;
-            this.label54.Text = "Rs. (in words):";
-            // 
-            // tableLayoutPanel14
-            // 
-            this.tableLayoutPanel14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel14.ColumnCount = 5;
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.14815F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.85185F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 166F));
-            this.tableLayoutPanel14.Controls.Add(this.btn_delete, 4, 0);
-            this.tableLayoutPanel14.Controls.Add(this.btn_cancelDelete, 3, 0);
-            this.tableLayoutPanel14.Controls.Add(this.label55, 0, 0);
-            this.tableLayoutPanel14.Controls.Add(this.txtbx_enterInvoiceDelete, 1, 0);
-            this.tableLayoutPanel14.Controls.Add(this.btn_viewBillDelete, 2, 0);
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(11, 6);
-            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
-            this.tableLayoutPanel14.RowCount = 1;
-            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(836, 29);
-            this.tableLayoutPanel14.TabIndex = 1;
+            this.tableLayoutPanel12.ColumnCount = 1;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Controls.Add(this.groupBox14, 0, 0);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(11, 333);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 1;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(836, 257);
+            this.tableLayoutPanel12.TabIndex = 15;
             // 
-            // btn_delete
+            // groupBox14
             // 
-            this.btn_delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_delete.Enabled = false;
-            this.btn_delete.Location = new System.Drawing.Point(672, 3);
-            this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(161, 23);
-            this.btn_delete.TabIndex = 4;
-            this.btn_delete.Text = "Delete";
-            this.btn_delete.UseVisualStyleBackColor = true;
+            this.groupBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox14.AutoSize = true;
+            this.groupBox14.Controls.Add(this.dataGridView2);
+            this.groupBox14.Location = new System.Drawing.Point(3, 3);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(830, 251);
+            this.groupBox14.TabIndex = 7;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Bill Details";
             // 
-            // btn_cancelDelete
+            // dataGridView2
             // 
-            this.btn_cancelDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_cancelDelete.Location = new System.Drawing.Point(543, 3);
-            this.btn_cancelDelete.Name = "btn_cancelDelete";
-            this.btn_cancelDelete.Size = new System.Drawing.Size(123, 23);
-            this.btn_cancelDelete.TabIndex = 3;
-            this.btn_cancelDelete.Text = "Cancel";
-            this.btn_cancelDelete.UseVisualStyleBackColor = true;
+            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewTextBoxColumn12,
+            this.dataGridViewTextBoxColumn13,
+            this.dataGridViewTextBoxColumn14,
+            this.dataGridViewTextBoxColumn15,
+            this.dataGridViewTextBoxColumn16});
+            this.dataGridView2.Enabled = false;
+            this.dataGridView2.Location = new System.Drawing.Point(6, 23);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(818, 217);
+            this.dataGridView2.TabIndex = 15;
             // 
-            // label55
+            // dataGridViewTextBoxColumn9
             // 
-            this.label55.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(4, 8);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(108, 13);
-            this.label55.TabIndex = 1;
-            this.label55.Text = "Enter the invoice no.:";
+            this.dataGridViewTextBoxColumn9.FillWeight = 30F;
+            this.dataGridViewTextBoxColumn9.HeaderText = "S. No.";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.Width = 60;
             // 
-            // txtbx_enterInvoiceDelete
+            // dataGridViewTextBoxColumn10
             // 
-            this.txtbx_enterInvoiceDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_enterInvoiceDelete.Location = new System.Drawing.Point(118, 4);
-            this.txtbx_enterInvoiceDelete.Name = "txtbx_enterInvoiceDelete";
-            this.txtbx_enterInvoiceDelete.Size = new System.Drawing.Size(288, 20);
-            this.txtbx_enterInvoiceDelete.TabIndex = 1;
+            this.dataGridViewTextBoxColumn10.FillWeight = 657.8682F;
+            this.dataGridViewTextBoxColumn10.HeaderText = "Goods Description";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.Width = 360;
             // 
-            // btn_viewBillDelete
+            // dataGridViewTextBoxColumn11
             // 
-            this.btn_viewBillDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_viewBillDelete.Enabled = false;
-            this.btn_viewBillDelete.Location = new System.Drawing.Point(412, 3);
-            this.btn_viewBillDelete.Name = "btn_viewBillDelete";
-            this.btn_viewBillDelete.Size = new System.Drawing.Size(125, 23);
-            this.btn_viewBillDelete.TabIndex = 2;
-            this.btn_viewBillDelete.Text = "Review Bill";
-            this.btn_viewBillDelete.UseVisualStyleBackColor = true;
+            this.dataGridViewTextBoxColumn11.FillWeight = 7.081353F;
+            this.dataGridViewTextBoxColumn11.HeaderText = "Qtl.";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.Width = 50;
             // 
-            // tableLayoutPanel15
+            // dataGridViewTextBoxColumn12
             // 
-            this.tableLayoutPanel15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridViewTextBoxColumn12.FillWeight = 9.376002F;
+            this.dataGridViewTextBoxColumn12.HeaderText = "Pkg.";
+            this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
+            this.dataGridViewTextBoxColumn12.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.FillWeight = 12.43425F;
+            this.dataGridViewTextBoxColumn13.HeaderText = "Weight";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.FillWeight = 21.20576F;
+            this.dataGridViewTextBoxColumn14.HeaderText = "Rate per Qtl.";
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            this.dataGridViewTextBoxColumn14.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.FillWeight = 47.01535F;
+            this.dataGridViewTextBoxColumn15.HeaderText = "Amount(R)";
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.Width = 90;
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.FillWeight = 20.72976F;
+            this.dataGridViewTextBoxColumn16.HeaderText = "P.";
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.Width = 50;
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel15.ColumnCount = 2;
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.79783F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.20216F));
-            this.tableLayoutPanel15.Controls.Add(this.groupBox18, 0, 0);
-            this.tableLayoutPanel15.Controls.Add(this.groupBox19, 1, 0);
-            this.tableLayoutPanel15.Location = new System.Drawing.Point(11, 41);
-            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
-            this.tableLayoutPanel15.RowCount = 1;
-            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel15.Size = new System.Drawing.Size(836, 71);
-            this.tableLayoutPanel15.TabIndex = 13;
+            this.tableLayoutPanel11.ColumnCount = 2;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56F));
+            this.tableLayoutPanel11.Controls.Add(this.groupBox12, 1, 0);
+            this.tableLayoutPanel11.Controls.Add(this.groupBox13, 0, 0);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(11, 118);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 1;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(837, 209);
+            this.tableLayoutPanel11.TabIndex = 14;
             // 
-            // groupBox18
+            // groupBox12
             // 
-            this.groupBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox18.Controls.Add(this.label56);
-            this.groupBox18.ForeColor = System.Drawing.Color.Red;
-            this.groupBox18.Location = new System.Drawing.Point(3, 18);
-            this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(226, 34);
-            this.groupBox18.TabIndex = 0;
-            this.groupBox18.TabStop = false;
-            this.groupBox18.Text = "GSTIN No.:";
+            this.groupBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox12.Controls.Add(this.txtbx_transportDisplayEdit);
+            this.groupBox12.Controls.Add(this.label31);
+            this.groupBox12.Controls.Add(this.txtbx_driverNoDisplayEdit);
+            this.groupBox12.Controls.Add(this.txtbx_licNoDisplayEdit);
+            this.groupBox12.Controls.Add(this.label32);
+            this.groupBox12.Controls.Add(this.label33);
+            this.groupBox12.Controls.Add(this.txtbx_driverNameDisplayEdit);
+            this.groupBox12.Controls.Add(this.txtbx_truckNumberDisplayEdit);
+            this.groupBox12.Controls.Add(this.txtbx_brokerNameDisplayEdit);
+            this.groupBox12.Controls.Add(this.label34);
+            this.groupBox12.Controls.Add(this.label35);
+            this.groupBox12.Controls.Add(this.label36);
+            this.groupBox12.Location = new System.Drawing.Point(371, 7);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(463, 194);
+            this.groupBox12.TabIndex = 2;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Driver Info";
             // 
-            // label56
+            // txtbx_transportDisplayEdit
             // 
-            this.label56.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label56.AutoSize = true;
-            this.label56.ForeColor = System.Drawing.Color.Blue;
-            this.label56.Location = new System.Drawing.Point(6, 16);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(107, 13);
-            this.label56.TabIndex = 1;
-            this.label56.Text = "23BGMPP8430L1ZY";
+            this.txtbx_transportDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_transportDisplayEdit.Enabled = false;
+            this.txtbx_transportDisplayEdit.Location = new System.Drawing.Point(79, 153);
+            this.txtbx_transportDisplayEdit.Name = "txtbx_transportDisplayEdit";
+            this.txtbx_transportDisplayEdit.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_transportDisplayEdit.TabIndex = 14;
             // 
-            // groupBox19
+            // label31
             // 
-            this.groupBox19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox19.Controls.Add(this.txtbx_dateDelete);
-            this.groupBox19.Controls.Add(this.label57);
-            this.groupBox19.Controls.Add(this.label58);
-            this.groupBox19.Controls.Add(this.txtbx_invoiceNoDelete);
-            this.groupBox19.ForeColor = System.Drawing.Color.Red;
-            this.groupBox19.Location = new System.Drawing.Point(235, 4);
-            this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(598, 62);
-            this.groupBox19.TabIndex = 10;
-            this.groupBox19.TabStop = false;
-            this.groupBox19.Text = "Bill Info:";
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(7, 156);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(55, 13);
+            this.label31.TabIndex = 12;
+            this.label31.Text = "Transport:";
             // 
-            // txtbx_dateDelete
+            // txtbx_driverNoDisplayEdit
             // 
-            this.txtbx_dateDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_dateDelete.Enabled = false;
-            this.txtbx_dateDelete.Location = new System.Drawing.Point(108, 37);
-            this.txtbx_dateDelete.Name = "txtbx_dateDelete";
-            this.txtbx_dateDelete.ReadOnly = true;
-            this.txtbx_dateDelete.Size = new System.Drawing.Size(480, 20);
-            this.txtbx_dateDelete.TabIndex = 6;
+            this.txtbx_driverNoDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_driverNoDisplayEdit.Enabled = false;
+            this.txtbx_driverNoDisplayEdit.Location = new System.Drawing.Point(79, 128);
+            this.txtbx_driverNoDisplayEdit.Name = "txtbx_driverNoDisplayEdit";
+            this.txtbx_driverNoDisplayEdit.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_driverNoDisplayEdit.TabIndex = 13;
             // 
-            // label57
+            // txtbx_licNoDisplayEdit
             // 
-            this.label57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(6, 16);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(96, 13);
-            this.label57.TabIndex = 2;
-            this.label57.Text = "Invoice Number";
+            this.txtbx_licNoDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_licNoDisplayEdit.Enabled = false;
+            this.txtbx_licNoDisplayEdit.Location = new System.Drawing.Point(80, 101);
+            this.txtbx_licNoDisplayEdit.Name = "txtbx_licNoDisplayEdit";
+            this.txtbx_licNoDisplayEdit.Size = new System.Drawing.Size(372, 20);
+            this.txtbx_licNoDisplayEdit.TabIndex = 12;
             // 
-            // label58
+            // label32
             // 
-            this.label58.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.Location = new System.Drawing.Point(6, 37);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(34, 13);
-            this.label58.TabIndex = 4;
-            this.label58.Text = "Date";
+            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(6, 131);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(58, 13);
+            this.label32.TabIndex = 11;
+            this.label32.Text = "Driver No.:";
             // 
-            // txtbx_invoiceNoDelete
+            // label33
             // 
-            this.txtbx_invoiceNoDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_invoiceNoDelete.Enabled = false;
-            this.txtbx_invoiceNoDelete.Location = new System.Drawing.Point(108, 13);
-            this.txtbx_invoiceNoDelete.Name = "txtbx_invoiceNoDelete";
-            this.txtbx_invoiceNoDelete.ReadOnly = true;
-            this.txtbx_invoiceNoDelete.Size = new System.Drawing.Size(480, 20);
-            this.txtbx_invoiceNoDelete.TabIndex = 5;
+            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(7, 103);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(67, 13);
+            this.label33.TabIndex = 10;
+            this.label33.Text = "License No.:";
             // 
-            // tableLayoutPanel16
+            // txtbx_driverNameDisplayEdit
             // 
-            this.tableLayoutPanel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtbx_driverNameDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_driverNameDisplayEdit.Enabled = false;
+            this.txtbx_driverNameDisplayEdit.Location = new System.Drawing.Point(79, 75);
+            this.txtbx_driverNameDisplayEdit.Name = "txtbx_driverNameDisplayEdit";
+            this.txtbx_driverNameDisplayEdit.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_driverNameDisplayEdit.TabIndex = 11;
+            // 
+            // txtbx_truckNumberDisplayEdit
+            // 
+            this.txtbx_truckNumberDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_truckNumberDisplayEdit.Enabled = false;
+            this.txtbx_truckNumberDisplayEdit.Location = new System.Drawing.Point(79, 51);
+            this.txtbx_truckNumberDisplayEdit.Name = "txtbx_truckNumberDisplayEdit";
+            this.txtbx_truckNumberDisplayEdit.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_truckNumberDisplayEdit.TabIndex = 10;
+            // 
+            // txtbx_brokerNameDisplayEdit
+            // 
+            this.txtbx_brokerNameDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_brokerNameDisplayEdit.Enabled = false;
+            this.txtbx_brokerNameDisplayEdit.Location = new System.Drawing.Point(79, 26);
+            this.txtbx_brokerNameDisplayEdit.Name = "txtbx_brokerNameDisplayEdit";
+            this.txtbx_brokerNameDisplayEdit.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_brokerNameDisplayEdit.TabIndex = 9;
+            // 
+            // label34
+            // 
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(7, 28);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(41, 13);
+            this.label34.TabIndex = 7;
+            this.label34.Text = "Broker:";
+            // 
+            // label35
+            // 
+            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(7, 79);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(72, 13);
+            this.label35.TabIndex = 9;
+            this.label35.Text = "Driver Name: ";
+            // 
+            // label36
+            // 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(7, 53);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(58, 13);
+            this.label36.TabIndex = 8;
+            this.label36.Text = "Truck No.:";
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox13.Controls.Add(this.txtbx_customerPlaceDisplayEdit);
+            this.groupBox13.Controls.Add(this.txtbx_customerNameDisplayEdit);
+            this.groupBox13.Controls.Add(this.label37);
+            this.groupBox13.Controls.Add(this.label38);
+            this.groupBox13.Location = new System.Drawing.Point(3, 7);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(362, 194);
+            this.groupBox13.TabIndex = 6;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Customer Info";
+            // 
+            // txtbx_customerPlaceDisplayEdit
+            // 
+            this.txtbx_customerPlaceDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_customerPlaceDisplayEdit.Enabled = false;
+            this.txtbx_customerPlaceDisplayEdit.Location = new System.Drawing.Point(42, 75);
+            this.txtbx_customerPlaceDisplayEdit.Multiline = true;
+            this.txtbx_customerPlaceDisplayEdit.Name = "txtbx_customerPlaceDisplayEdit";
+            this.txtbx_customerPlaceDisplayEdit.Size = new System.Drawing.Size(307, 98);
+            this.txtbx_customerPlaceDisplayEdit.TabIndex = 8;
+            // 
+            // txtbx_customerNameDisplayEdit
+            // 
+            this.txtbx_customerNameDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_customerNameDisplayEdit.Enabled = false;
+            this.txtbx_customerNameDisplayEdit.Location = new System.Drawing.Point(45, 30);
+            this.txtbx_customerNameDisplayEdit.Name = "txtbx_customerNameDisplayEdit";
+            this.txtbx_customerNameDisplayEdit.Size = new System.Drawing.Size(304, 20);
+            this.txtbx_customerNameDisplayEdit.TabIndex = 7;
+            // 
+            // label37
+            // 
+            this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(3, 114);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(37, 13);
+            this.label37.TabIndex = 1;
+            this.label37.Text = "Place:";
+            // 
+            // label38
+            // 
+            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(6, 33);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(38, 13);
+            this.label38.TabIndex = 0;
+            this.label38.Text = "Name:";
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel16.ColumnCount = 2;
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56F));
-            this.tableLayoutPanel16.Controls.Add(this.groupBox20, 1, 0);
-            this.tableLayoutPanel16.Controls.Add(this.groupBox21, 0, 0);
-            this.tableLayoutPanel16.Location = new System.Drawing.Point(10, 118);
-            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
-            this.tableLayoutPanel16.RowCount = 1;
-            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel16.Size = new System.Drawing.Size(837, 209);
-            this.tableLayoutPanel16.TabIndex = 14;
+            this.tableLayoutPanel10.ColumnCount = 2;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.79783F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.20216F));
+            this.tableLayoutPanel10.Controls.Add(this.groupBox10, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.groupBox11, 1, 0);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(11, 41);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 1;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(836, 71);
+            this.tableLayoutPanel10.TabIndex = 13;
             // 
-            // groupBox20
+            // groupBox10
             // 
-            this.groupBox20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox20.Controls.Add(this.txtbx_transportDelete);
-            this.groupBox20.Controls.Add(this.label59);
-            this.groupBox20.Controls.Add(this.txtbx_driverNoDelete);
-            this.groupBox20.Controls.Add(this.txtbx_LicNoDelete);
-            this.groupBox20.Controls.Add(this.label60);
-            this.groupBox20.Controls.Add(this.label61);
-            this.groupBox20.Controls.Add(this.txtbx_driverNameDelete);
-            this.groupBox20.Controls.Add(this.txtbx_truckNoDelete);
-            this.groupBox20.Controls.Add(this.txtbx_brokerNameDelete);
-            this.groupBox20.Controls.Add(this.label62);
-            this.groupBox20.Controls.Add(this.label63);
-            this.groupBox20.Controls.Add(this.label64);
-            this.groupBox20.Location = new System.Drawing.Point(371, 7);
-            this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Size = new System.Drawing.Size(463, 194);
-            this.groupBox20.TabIndex = 2;
-            this.groupBox20.TabStop = false;
-            this.groupBox20.Text = "Driver Info";
+            this.groupBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox10.Controls.Add(this.label4);
+            this.groupBox10.ForeColor = System.Drawing.Color.Red;
+            this.groupBox10.Location = new System.Drawing.Point(3, 18);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(226, 34);
+            this.groupBox10.TabIndex = 0;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "GSTIN No.:";
             // 
-            // txtbx_transportDelete
+            // label4
             // 
-            this.txtbx_transportDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_transportDelete.Enabled = false;
-            this.txtbx_transportDelete.Location = new System.Drawing.Point(79, 153);
-            this.txtbx_transportDelete.Name = "txtbx_transportDelete";
-            this.txtbx_transportDelete.ReadOnly = true;
-            this.txtbx_transportDelete.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_transportDelete.TabIndex = 14;
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(6, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(107, 13);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "23BGMPP8430L1ZY";
             // 
-            // label59
+            // groupBox11
             // 
-            this.label59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(7, 156);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(55, 13);
-            this.label59.TabIndex = 12;
-            this.label59.Text = "Transport:";
+            this.groupBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox11.Controls.Add(this.dtpk_dateDisplayEdit);
+            this.groupBox11.Controls.Add(this.label29);
+            this.groupBox11.Controls.Add(this.label30);
+            this.groupBox11.Controls.Add(this.txt_invoiceNoDisplayEdit);
+            this.groupBox11.ForeColor = System.Drawing.Color.Red;
+            this.groupBox11.Location = new System.Drawing.Point(235, 4);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Size = new System.Drawing.Size(598, 62);
+            this.groupBox11.TabIndex = 10;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Bill Info:";
             // 
-            // txtbx_driverNoDelete
+            // dtpk_dateDisplayEdit
             // 
-            this.txtbx_driverNoDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_driverNoDelete.Enabled = false;
-            this.txtbx_driverNoDelete.Location = new System.Drawing.Point(79, 128);
-            this.txtbx_driverNoDelete.Name = "txtbx_driverNoDelete";
-            this.txtbx_driverNoDelete.ReadOnly = true;
-            this.txtbx_driverNoDelete.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_driverNoDelete.TabIndex = 13;
+            this.dtpk_dateDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.dtpk_dateDisplayEdit.Enabled = false;
+            this.dtpk_dateDisplayEdit.Location = new System.Drawing.Point(108, 36);
+            this.dtpk_dateDisplayEdit.Name = "dtpk_dateDisplayEdit";
+            this.dtpk_dateDisplayEdit.Size = new System.Drawing.Size(480, 20);
+            this.dtpk_dateDisplayEdit.TabIndex = 14;
+            this.dtpk_dateDisplayEdit.Value = new System.DateTime(2019, 1, 24, 15, 46, 14, 0);
             // 
-            // txtbx_LicNoDelete
+            // label29
             // 
-            this.txtbx_LicNoDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_LicNoDelete.Enabled = false;
-            this.txtbx_LicNoDelete.Location = new System.Drawing.Point(80, 101);
-            this.txtbx_LicNoDelete.Name = "txtbx_LicNoDelete";
-            this.txtbx_LicNoDelete.ReadOnly = true;
-            this.txtbx_LicNoDelete.Size = new System.Drawing.Size(372, 20);
-            this.txtbx_LicNoDelete.TabIndex = 12;
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(6, 16);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(96, 13);
+            this.label29.TabIndex = 2;
+            this.label29.Text = "Invoice Number";
             // 
-            // label60
+            // label30
             // 
-            this.label60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(6, 131);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(58, 13);
-            this.label60.TabIndex = 11;
-            this.label60.Text = "Driver No.:";
+            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(6, 37);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(34, 13);
+            this.label30.TabIndex = 4;
+            this.label30.Text = "Date";
             // 
-            // label61
+            // txt_invoiceNoDisplayEdit
             // 
-            this.label61.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(7, 103);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(67, 13);
-            this.label61.TabIndex = 10;
-            this.label61.Text = "License No.:";
+            this.txt_invoiceNoDisplayEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_invoiceNoDisplayEdit.Enabled = false;
+            this.txt_invoiceNoDisplayEdit.Location = new System.Drawing.Point(108, 13);
+            this.txt_invoiceNoDisplayEdit.Name = "txt_invoiceNoDisplayEdit";
+            this.txt_invoiceNoDisplayEdit.ReadOnly = true;
+            this.txt_invoiceNoDisplayEdit.Size = new System.Drawing.Size(480, 20);
+            this.txt_invoiceNoDisplayEdit.TabIndex = 5;
             // 
-            // txtbx_driverNameDelete
+            // tableLayoutPanel9
             // 
-            this.txtbx_driverNameDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_driverNameDelete.Enabled = false;
-            this.txtbx_driverNameDelete.Location = new System.Drawing.Point(79, 75);
-            this.txtbx_driverNameDelete.Name = "txtbx_driverNameDelete";
-            this.txtbx_driverNameDelete.ReadOnly = true;
-            this.txtbx_driverNameDelete.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_driverNameDelete.TabIndex = 11;
-            // 
-            // txtbx_truckNoDelete
-            // 
-            this.txtbx_truckNoDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_truckNoDelete.Enabled = false;
-            this.txtbx_truckNoDelete.Location = new System.Drawing.Point(79, 51);
-            this.txtbx_truckNoDelete.Name = "txtbx_truckNoDelete";
-            this.txtbx_truckNoDelete.ReadOnly = true;
-            this.txtbx_truckNoDelete.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_truckNoDelete.TabIndex = 10;
-            // 
-            // txtbx_brokerNameDelete
-            // 
-            this.txtbx_brokerNameDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_brokerNameDelete.Enabled = false;
-            this.txtbx_brokerNameDelete.Location = new System.Drawing.Point(79, 26);
-            this.txtbx_brokerNameDelete.Name = "txtbx_brokerNameDelete";
-            this.txtbx_brokerNameDelete.ReadOnly = true;
-            this.txtbx_brokerNameDelete.Size = new System.Drawing.Size(373, 20);
-            this.txtbx_brokerNameDelete.TabIndex = 9;
-            // 
-            // label62
-            // 
-            this.label62.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(7, 28);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(41, 13);
-            this.label62.TabIndex = 7;
-            this.label62.Text = "Broker:";
-            // 
-            // label63
-            // 
-            this.label63.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(7, 79);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(72, 13);
-            this.label63.TabIndex = 9;
-            this.label63.Text = "Driver Name: ";
-            // 
-            // label64
-            // 
-            this.label64.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(7, 53);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(58, 13);
-            this.label64.TabIndex = 8;
-            this.label64.Text = "Truck No.:";
-            // 
-            // groupBox21
-            // 
-            this.groupBox21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox21.Controls.Add(this.txtbx_customerPlaceDelete);
-            this.groupBox21.Controls.Add(this.txtbx_customerNameDelete);
-            this.groupBox21.Controls.Add(this.label65);
-            this.groupBox21.Controls.Add(this.label66);
-            this.groupBox21.Location = new System.Drawing.Point(3, 7);
-            this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(362, 194);
-            this.groupBox21.TabIndex = 6;
-            this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "Customer Info";
-            // 
-            // txtbx_customerPlaceDelete
-            // 
-            this.txtbx_customerPlaceDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_customerPlaceDelete.Enabled = false;
-            this.txtbx_customerPlaceDelete.Location = new System.Drawing.Point(42, 75);
-            this.txtbx_customerPlaceDelete.Multiline = true;
-            this.txtbx_customerPlaceDelete.Name = "txtbx_customerPlaceDelete";
-            this.txtbx_customerPlaceDelete.ReadOnly = true;
-            this.txtbx_customerPlaceDelete.Size = new System.Drawing.Size(307, 98);
-            this.txtbx_customerPlaceDelete.TabIndex = 8;
-            // 
-            // txtbx_customerNameDelete
-            // 
-            this.txtbx_customerNameDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_customerNameDelete.Enabled = false;
-            this.txtbx_customerNameDelete.Location = new System.Drawing.Point(45, 30);
-            this.txtbx_customerNameDelete.Name = "txtbx_customerNameDelete";
-            this.txtbx_customerNameDelete.ReadOnly = true;
-            this.txtbx_customerNameDelete.Size = new System.Drawing.Size(304, 20);
-            this.txtbx_customerNameDelete.TabIndex = 7;
-            // 
-            // label65
-            // 
-            this.label65.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(3, 114);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(37, 13);
-            this.label65.TabIndex = 1;
-            this.label65.Text = "Place:";
-            // 
-            // label66
-            // 
-            this.label66.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(6, 33);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(38, 13);
-            this.label66.TabIndex = 0;
-            this.label66.Text = "Name:";
-            // 
-            // tableLayoutPanel17
-            // 
-            this.tableLayoutPanel17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel17.ColumnCount = 1;
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel17.Controls.Add(this.groupBox22, 0, 0);
-            this.tableLayoutPanel17.Location = new System.Drawing.Point(10, 333);
-            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
-            this.tableLayoutPanel17.RowCount = 1;
-            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel17.Size = new System.Drawing.Size(836, 257);
-            this.tableLayoutPanel17.TabIndex = 15;
+            this.tableLayoutPanel9.ColumnCount = 5;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.14815F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.85185F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
+            this.tableLayoutPanel9.Controls.Add(this.btn_saveEdit, 4, 0);
+            this.tableLayoutPanel9.Controls.Add(this.btn_resetEdit, 3, 0);
+            this.tableLayoutPanel9.Controls.Add(this.label3, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.txtbx_enterInvoiceEdit, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.btn_searchBillEdit, 2, 0);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(11, 6);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 1;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(836, 29);
+            this.tableLayoutPanel9.TabIndex = 1;
             // 
-            // groupBox22
+            // btn_saveEdit
             // 
-            this.groupBox22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox22.AutoSize = true;
-            this.groupBox22.Controls.Add(this.datagrid_billDetailsDelete);
-            this.groupBox22.Location = new System.Drawing.Point(3, 3);
-            this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(830, 251);
-            this.groupBox22.TabIndex = 7;
-            this.groupBox22.TabStop = false;
-            this.groupBox22.Text = "Bill Details";
+            this.btn_saveEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_saveEdit.Enabled = false;
+            this.btn_saveEdit.Location = new System.Drawing.Point(671, 3);
+            this.btn_saveEdit.Name = "btn_saveEdit";
+            this.btn_saveEdit.Size = new System.Drawing.Size(162, 23);
+            this.btn_saveEdit.TabIndex = 4;
+            this.btn_saveEdit.Text = "Save";
+            this.btn_saveEdit.UseVisualStyleBackColor = true;
             // 
-            // datagrid_billDetailsDelete
+            // btn_resetEdit
             // 
-            this.datagrid_billDetailsDelete.AllowUserToAddRows = false;
-            this.datagrid_billDetailsDelete.AllowUserToDeleteRows = false;
-            this.datagrid_billDetailsDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.datagrid_billDetailsDelete.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datagrid_billDetailsDelete.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn17,
-            this.dataGridViewTextBoxColumn18,
-            this.dataGridViewTextBoxColumn19,
-            this.dataGridViewTextBoxColumn20,
-            this.dataGridViewTextBoxColumn21,
-            this.dataGridViewTextBoxColumn22,
-            this.dataGridViewTextBoxColumn23,
-            this.dataGridViewTextBoxColumn24});
-            this.datagrid_billDetailsDelete.Enabled = false;
-            this.datagrid_billDetailsDelete.Location = new System.Drawing.Point(6, 23);
-            this.datagrid_billDetailsDelete.Name = "datagrid_billDetailsDelete";
-            this.datagrid_billDetailsDelete.ReadOnly = true;
-            this.datagrid_billDetailsDelete.Size = new System.Drawing.Size(818, 217);
-            this.datagrid_billDetailsDelete.TabIndex = 15;
+            this.btn_resetEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_resetEdit.Location = new System.Drawing.Point(542, 3);
+            this.btn_resetEdit.Name = "btn_resetEdit";
+            this.btn_resetEdit.Size = new System.Drawing.Size(123, 23);
+            this.btn_resetEdit.TabIndex = 3;
+            this.btn_resetEdit.Text = "Reset";
+            this.btn_resetEdit.UseVisualStyleBackColor = true;
             // 
-            // dataGridViewTextBoxColumn17
+            // label3
             // 
-            this.dataGridViewTextBoxColumn17.FillWeight = 30F;
-            this.dataGridViewTextBoxColumn17.HeaderText = "S. No.";
-            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
-            this.dataGridViewTextBoxColumn17.ReadOnly = true;
-            this.dataGridViewTextBoxColumn17.Width = 60;
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(4, 8);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(108, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Enter the invoice no.:";
             // 
-            // dataGridViewTextBoxColumn18
+            // txtbx_enterInvoiceEdit
             // 
-            this.dataGridViewTextBoxColumn18.FillWeight = 657.8682F;
-            this.dataGridViewTextBoxColumn18.HeaderText = "Goods Description";
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            this.dataGridViewTextBoxColumn18.ReadOnly = true;
-            this.dataGridViewTextBoxColumn18.Width = 360;
+            this.txtbx_enterInvoiceEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_enterInvoiceEdit.Location = new System.Drawing.Point(118, 4);
+            this.txtbx_enterInvoiceEdit.Name = "txtbx_enterInvoiceEdit";
+            this.txtbx_enterInvoiceEdit.Size = new System.Drawing.Size(287, 20);
+            this.txtbx_enterInvoiceEdit.TabIndex = 1;
             // 
-            // dataGridViewTextBoxColumn19
+            // btn_searchBillEdit
             // 
-            this.dataGridViewTextBoxColumn19.FillWeight = 7.081353F;
-            this.dataGridViewTextBoxColumn19.HeaderText = "Qtl.";
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            this.dataGridViewTextBoxColumn19.ReadOnly = true;
-            this.dataGridViewTextBoxColumn19.Width = 50;
+            this.btn_searchBillEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_searchBillEdit.Enabled = false;
+            this.btn_searchBillEdit.Location = new System.Drawing.Point(411, 3);
+            this.btn_searchBillEdit.Name = "btn_searchBillEdit";
+            this.btn_searchBillEdit.Size = new System.Drawing.Size(125, 23);
+            this.btn_searchBillEdit.TabIndex = 2;
+            this.btn_searchBillEdit.Text = "Search Bill";
+            this.btn_searchBillEdit.UseVisualStyleBackColor = true;
             // 
-            // dataGridViewTextBoxColumn20
+            // tbp_deleteBill
             // 
-            this.dataGridViewTextBoxColumn20.FillWeight = 9.376002F;
-            this.dataGridViewTextBoxColumn20.HeaderText = "Pkg.";
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            this.dataGridViewTextBoxColumn20.ReadOnly = true;
-            this.dataGridViewTextBoxColumn20.Width = 50;
+            this.tbp_deleteBill.Controls.Add(this.groupBox25);
+            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel18);
+            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel17);
+            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel16);
+            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel15);
+            this.tbp_deleteBill.Controls.Add(this.tableLayoutPanel14);
+            this.tbp_deleteBill.Location = new System.Drawing.Point(4, 22);
+            this.tbp_deleteBill.Name = "tbp_deleteBill";
+            this.tbp_deleteBill.Size = new System.Drawing.Size(858, 844);
+            this.tbp_deleteBill.TabIndex = 3;
+            this.tbp_deleteBill.Text = "Delete bill";
+            this.tbp_deleteBill.UseVisualStyleBackColor = true;
             // 
-            // dataGridViewTextBoxColumn21
+            // groupBox25
             // 
-            this.dataGridViewTextBoxColumn21.FillWeight = 12.43425F;
-            this.dataGridViewTextBoxColumn21.HeaderText = "Weight";
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            this.dataGridViewTextBoxColumn21.ReadOnly = true;
-            this.dataGridViewTextBoxColumn21.Width = 50;
+            this.groupBox25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox25.Controls.Add(this.txtbx_freightAmountDelete);
+            this.groupBox25.Controls.Add(this.label80);
+            this.groupBox25.Controls.Add(this.txtbx_freightRateDelete);
+            this.groupBox25.Controls.Add(this.label81);
+            this.groupBox25.Controls.Add(this.txtbx_RsWordsDelete);
+            this.groupBox25.Controls.Add(this.label82);
+            this.groupBox25.Location = new System.Drawing.Point(9, 732);
+            this.groupBox25.Name = "groupBox25";
+            this.groupBox25.Size = new System.Drawing.Size(836, 90);
+            this.groupBox25.TabIndex = 17;
+            this.groupBox25.TabStop = false;
+            this.groupBox25.Text = "Freight Rate";
             // 
-            // dataGridViewTextBoxColumn22
+            // txtbx_freightAmountDelete
             // 
-            this.dataGridViewTextBoxColumn22.FillWeight = 21.20576F;
-            this.dataGridViewTextBoxColumn22.HeaderText = "Rate per Qtl.";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.ReadOnly = true;
-            this.dataGridViewTextBoxColumn22.Width = 60;
+            this.txtbx_freightAmountDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_freightAmountDelete.Enabled = false;
+            this.txtbx_freightAmountDelete.Location = new System.Drawing.Point(126, 64);
+            this.txtbx_freightAmountDelete.Name = "txtbx_freightAmountDelete";
+            this.txtbx_freightAmountDelete.ReadOnly = true;
+            this.txtbx_freightAmountDelete.Size = new System.Drawing.Size(700, 20);
+            this.txtbx_freightAmountDelete.TabIndex = 25;
             // 
-            // dataGridViewTextBoxColumn23
+            // label80
             // 
-            this.dataGridViewTextBoxColumn23.FillWeight = 47.01535F;
-            this.dataGridViewTextBoxColumn23.HeaderText = "Amount(R)";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.ReadOnly = true;
-            this.dataGridViewTextBoxColumn23.Width = 90;
+            this.label80.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label80.AutoSize = true;
+            this.label80.Location = new System.Drawing.Point(3, 67);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(114, 13);
+            this.label80.TabIndex = 4;
+            this.label80.Text = "Freight Amount @ Rs.:";
             // 
-            // dataGridViewTextBoxColumn24
+            // txtbx_freightRateDelete
             // 
-            this.dataGridViewTextBoxColumn24.FillWeight = 20.72976F;
-            this.dataGridViewTextBoxColumn24.HeaderText = "P.";
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            this.dataGridViewTextBoxColumn24.ReadOnly = true;
-            this.dataGridViewTextBoxColumn24.Width = 50;
+            this.txtbx_freightRateDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_freightRateDelete.Enabled = false;
+            this.txtbx_freightRateDelete.Location = new System.Drawing.Point(111, 39);
+            this.txtbx_freightRateDelete.Name = "txtbx_freightRateDelete";
+            this.txtbx_freightRateDelete.ReadOnly = true;
+            this.txtbx_freightRateDelete.Size = new System.Drawing.Size(715, 20);
+            this.txtbx_freightRateDelete.TabIndex = 24;
+            // 
+            // label81
+            // 
+            this.label81.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label81.AutoSize = true;
+            this.label81.Location = new System.Drawing.Point(4, 42);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(101, 13);
+            this.label81.TabIndex = 2;
+            this.label81.Text = "Freight Rate @ Rs.:";
+            // 
+            // txtbx_RsWordsDelete
+            // 
+            this.txtbx_RsWordsDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_RsWordsDelete.Enabled = false;
+            this.txtbx_RsWordsDelete.Location = new System.Drawing.Point(81, 13);
+            this.txtbx_RsWordsDelete.Name = "txtbx_RsWordsDelete";
+            this.txtbx_RsWordsDelete.ReadOnly = true;
+            this.txtbx_RsWordsDelete.Size = new System.Drawing.Size(745, 20);
+            this.txtbx_RsWordsDelete.TabIndex = 23;
+            // 
+            // label82
+            // 
+            this.label82.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label82.AutoSize = true;
+            this.label82.Location = new System.Drawing.Point(3, 16);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(74, 13);
+            this.label82.TabIndex = 0;
+            this.label82.Text = "Rs. (in words):";
             // 
             // tableLayoutPanel18
             // 
@@ -3613,81 +3195,498 @@
             this.label79.TabIndex = 22;
             this.label79.Text = "Insurance:";
             // 
-            // groupBox25
+            // tableLayoutPanel17
             // 
-            this.groupBox25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox25.Controls.Add(this.txtbx_freightAmountDelete);
-            this.groupBox25.Controls.Add(this.label80);
-            this.groupBox25.Controls.Add(this.txtbx_freightRateDelete);
-            this.groupBox25.Controls.Add(this.label81);
-            this.groupBox25.Controls.Add(this.txtbx_RsWordsDelete);
-            this.groupBox25.Controls.Add(this.label82);
-            this.groupBox25.Location = new System.Drawing.Point(9, 732);
-            this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Size = new System.Drawing.Size(836, 90);
-            this.groupBox25.TabIndex = 17;
-            this.groupBox25.TabStop = false;
-            this.groupBox25.Text = "Freight Rate";
+            this.tableLayoutPanel17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel17.ColumnCount = 1;
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel17.Controls.Add(this.groupBox22, 0, 0);
+            this.tableLayoutPanel17.Location = new System.Drawing.Point(10, 333);
+            this.tableLayoutPanel17.Name = "tableLayoutPanel17";
+            this.tableLayoutPanel17.RowCount = 1;
+            this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(836, 257);
+            this.tableLayoutPanel17.TabIndex = 15;
             // 
-            // txtbx_freightAmountDelete
+            // groupBox22
             // 
-            this.txtbx_freightAmountDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_freightAmountDelete.Enabled = false;
-            this.txtbx_freightAmountDelete.Location = new System.Drawing.Point(126, 64);
-            this.txtbx_freightAmountDelete.Name = "txtbx_freightAmountDelete";
-            this.txtbx_freightAmountDelete.ReadOnly = true;
-            this.txtbx_freightAmountDelete.Size = new System.Drawing.Size(700, 20);
-            this.txtbx_freightAmountDelete.TabIndex = 25;
+            this.groupBox22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox22.AutoSize = true;
+            this.groupBox22.Controls.Add(this.datagrid_billDetailsDelete);
+            this.groupBox22.Location = new System.Drawing.Point(3, 3);
+            this.groupBox22.Name = "groupBox22";
+            this.groupBox22.Size = new System.Drawing.Size(830, 251);
+            this.groupBox22.TabIndex = 7;
+            this.groupBox22.TabStop = false;
+            this.groupBox22.Text = "Bill Details";
             // 
-            // label80
+            // datagrid_billDetailsDelete
             // 
-            this.label80.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(3, 67);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(114, 13);
-            this.label80.TabIndex = 4;
-            this.label80.Text = "Freight Amount @ Rs.:";
+            this.datagrid_billDetailsDelete.AllowUserToAddRows = false;
+            this.datagrid_billDetailsDelete.AllowUserToDeleteRows = false;
+            this.datagrid_billDetailsDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.datagrid_billDetailsDelete.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datagrid_billDetailsDelete.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn17,
+            this.dataGridViewTextBoxColumn18,
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn20,
+            this.dataGridViewTextBoxColumn21,
+            this.dataGridViewTextBoxColumn22,
+            this.dataGridViewTextBoxColumn23,
+            this.dataGridViewTextBoxColumn24});
+            this.datagrid_billDetailsDelete.Enabled = false;
+            this.datagrid_billDetailsDelete.Location = new System.Drawing.Point(6, 23);
+            this.datagrid_billDetailsDelete.Name = "datagrid_billDetailsDelete";
+            this.datagrid_billDetailsDelete.ReadOnly = true;
+            this.datagrid_billDetailsDelete.Size = new System.Drawing.Size(818, 217);
+            this.datagrid_billDetailsDelete.TabIndex = 15;
             // 
-            // txtbx_freightRateDelete
+            // dataGridViewTextBoxColumn17
             // 
-            this.txtbx_freightRateDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_freightRateDelete.Enabled = false;
-            this.txtbx_freightRateDelete.Location = new System.Drawing.Point(111, 39);
-            this.txtbx_freightRateDelete.Name = "txtbx_freightRateDelete";
-            this.txtbx_freightRateDelete.ReadOnly = true;
-            this.txtbx_freightRateDelete.Size = new System.Drawing.Size(715, 20);
-            this.txtbx_freightRateDelete.TabIndex = 24;
+            this.dataGridViewTextBoxColumn17.FillWeight = 30F;
+            this.dataGridViewTextBoxColumn17.HeaderText = "S. No.";
+            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
+            this.dataGridViewTextBoxColumn17.ReadOnly = true;
+            this.dataGridViewTextBoxColumn17.Width = 60;
             // 
-            // label81
+            // dataGridViewTextBoxColumn18
             // 
-            this.label81.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(4, 42);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(101, 13);
-            this.label81.TabIndex = 2;
-            this.label81.Text = "Freight Rate @ Rs.:";
+            this.dataGridViewTextBoxColumn18.FillWeight = 657.8682F;
+            this.dataGridViewTextBoxColumn18.HeaderText = "Goods Description";
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            this.dataGridViewTextBoxColumn18.ReadOnly = true;
+            this.dataGridViewTextBoxColumn18.Width = 360;
             // 
-            // txtbx_RsWordsDelete
+            // dataGridViewTextBoxColumn19
             // 
-            this.txtbx_RsWordsDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_RsWordsDelete.Enabled = false;
-            this.txtbx_RsWordsDelete.Location = new System.Drawing.Point(81, 13);
-            this.txtbx_RsWordsDelete.Name = "txtbx_RsWordsDelete";
-            this.txtbx_RsWordsDelete.ReadOnly = true;
-            this.txtbx_RsWordsDelete.Size = new System.Drawing.Size(745, 20);
-            this.txtbx_RsWordsDelete.TabIndex = 23;
+            this.dataGridViewTextBoxColumn19.FillWeight = 7.081353F;
+            this.dataGridViewTextBoxColumn19.HeaderText = "Qtl.";
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            this.dataGridViewTextBoxColumn19.ReadOnly = true;
+            this.dataGridViewTextBoxColumn19.Width = 50;
             // 
-            // label82
+            // dataGridViewTextBoxColumn20
             // 
-            this.label82.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(3, 16);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(74, 13);
-            this.label82.TabIndex = 0;
-            this.label82.Text = "Rs. (in words):";
+            this.dataGridViewTextBoxColumn20.FillWeight = 9.376002F;
+            this.dataGridViewTextBoxColumn20.HeaderText = "Pkg.";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            this.dataGridViewTextBoxColumn20.ReadOnly = true;
+            this.dataGridViewTextBoxColumn20.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.FillWeight = 12.43425F;
+            this.dataGridViewTextBoxColumn21.HeaderText = "Weight";
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            this.dataGridViewTextBoxColumn21.ReadOnly = true;
+            this.dataGridViewTextBoxColumn21.Width = 50;
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.FillWeight = 21.20576F;
+            this.dataGridViewTextBoxColumn22.HeaderText = "Rate per Qtl.";
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            this.dataGridViewTextBoxColumn22.ReadOnly = true;
+            this.dataGridViewTextBoxColumn22.Width = 60;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.FillWeight = 47.01535F;
+            this.dataGridViewTextBoxColumn23.HeaderText = "Amount(R)";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            this.dataGridViewTextBoxColumn23.Width = 90;
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.FillWeight = 20.72976F;
+            this.dataGridViewTextBoxColumn24.HeaderText = "P.";
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            this.dataGridViewTextBoxColumn24.ReadOnly = true;
+            this.dataGridViewTextBoxColumn24.Width = 50;
+            // 
+            // tableLayoutPanel16
+            // 
+            this.tableLayoutPanel16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel16.ColumnCount = 2;
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56F));
+            this.tableLayoutPanel16.Controls.Add(this.groupBox20, 1, 0);
+            this.tableLayoutPanel16.Controls.Add(this.groupBox21, 0, 0);
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(10, 118);
+            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
+            this.tableLayoutPanel16.RowCount = 1;
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(837, 209);
+            this.tableLayoutPanel16.TabIndex = 14;
+            // 
+            // groupBox20
+            // 
+            this.groupBox20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox20.Controls.Add(this.txtbx_transportDelete);
+            this.groupBox20.Controls.Add(this.label59);
+            this.groupBox20.Controls.Add(this.txtbx_driverNoDelete);
+            this.groupBox20.Controls.Add(this.txtbx_LicNoDelete);
+            this.groupBox20.Controls.Add(this.label60);
+            this.groupBox20.Controls.Add(this.label61);
+            this.groupBox20.Controls.Add(this.txtbx_driverNameDelete);
+            this.groupBox20.Controls.Add(this.txtbx_truckNoDelete);
+            this.groupBox20.Controls.Add(this.txtbx_brokerNameDelete);
+            this.groupBox20.Controls.Add(this.label62);
+            this.groupBox20.Controls.Add(this.label63);
+            this.groupBox20.Controls.Add(this.label64);
+            this.groupBox20.Location = new System.Drawing.Point(371, 7);
+            this.groupBox20.Name = "groupBox20";
+            this.groupBox20.Size = new System.Drawing.Size(463, 194);
+            this.groupBox20.TabIndex = 2;
+            this.groupBox20.TabStop = false;
+            this.groupBox20.Text = "Driver Info";
+            // 
+            // txtbx_transportDelete
+            // 
+            this.txtbx_transportDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_transportDelete.Enabled = false;
+            this.txtbx_transportDelete.Location = new System.Drawing.Point(79, 153);
+            this.txtbx_transportDelete.Name = "txtbx_transportDelete";
+            this.txtbx_transportDelete.ReadOnly = true;
+            this.txtbx_transportDelete.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_transportDelete.TabIndex = 14;
+            // 
+            // label59
+            // 
+            this.label59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(7, 156);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(55, 13);
+            this.label59.TabIndex = 12;
+            this.label59.Text = "Transport:";
+            // 
+            // txtbx_driverNoDelete
+            // 
+            this.txtbx_driverNoDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_driverNoDelete.Enabled = false;
+            this.txtbx_driverNoDelete.Location = new System.Drawing.Point(79, 128);
+            this.txtbx_driverNoDelete.Name = "txtbx_driverNoDelete";
+            this.txtbx_driverNoDelete.ReadOnly = true;
+            this.txtbx_driverNoDelete.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_driverNoDelete.TabIndex = 13;
+            // 
+            // txtbx_LicNoDelete
+            // 
+            this.txtbx_LicNoDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_LicNoDelete.Enabled = false;
+            this.txtbx_LicNoDelete.Location = new System.Drawing.Point(80, 101);
+            this.txtbx_LicNoDelete.Name = "txtbx_LicNoDelete";
+            this.txtbx_LicNoDelete.ReadOnly = true;
+            this.txtbx_LicNoDelete.Size = new System.Drawing.Size(372, 20);
+            this.txtbx_LicNoDelete.TabIndex = 12;
+            // 
+            // label60
+            // 
+            this.label60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(6, 131);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(58, 13);
+            this.label60.TabIndex = 11;
+            this.label60.Text = "Driver No.:";
+            // 
+            // label61
+            // 
+            this.label61.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(7, 103);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(67, 13);
+            this.label61.TabIndex = 10;
+            this.label61.Text = "License No.:";
+            // 
+            // txtbx_driverNameDelete
+            // 
+            this.txtbx_driverNameDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_driverNameDelete.Enabled = false;
+            this.txtbx_driverNameDelete.Location = new System.Drawing.Point(79, 75);
+            this.txtbx_driverNameDelete.Name = "txtbx_driverNameDelete";
+            this.txtbx_driverNameDelete.ReadOnly = true;
+            this.txtbx_driverNameDelete.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_driverNameDelete.TabIndex = 11;
+            // 
+            // txtbx_truckNoDelete
+            // 
+            this.txtbx_truckNoDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_truckNoDelete.Enabled = false;
+            this.txtbx_truckNoDelete.Location = new System.Drawing.Point(79, 51);
+            this.txtbx_truckNoDelete.Name = "txtbx_truckNoDelete";
+            this.txtbx_truckNoDelete.ReadOnly = true;
+            this.txtbx_truckNoDelete.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_truckNoDelete.TabIndex = 10;
+            // 
+            // txtbx_brokerNameDelete
+            // 
+            this.txtbx_brokerNameDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_brokerNameDelete.Enabled = false;
+            this.txtbx_brokerNameDelete.Location = new System.Drawing.Point(79, 26);
+            this.txtbx_brokerNameDelete.Name = "txtbx_brokerNameDelete";
+            this.txtbx_brokerNameDelete.ReadOnly = true;
+            this.txtbx_brokerNameDelete.Size = new System.Drawing.Size(373, 20);
+            this.txtbx_brokerNameDelete.TabIndex = 9;
+            // 
+            // label62
+            // 
+            this.label62.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(7, 28);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(41, 13);
+            this.label62.TabIndex = 7;
+            this.label62.Text = "Broker:";
+            // 
+            // label63
+            // 
+            this.label63.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(7, 79);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(72, 13);
+            this.label63.TabIndex = 9;
+            this.label63.Text = "Driver Name: ";
+            // 
+            // label64
+            // 
+            this.label64.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(7, 53);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(58, 13);
+            this.label64.TabIndex = 8;
+            this.label64.Text = "Truck No.:";
+            // 
+            // groupBox21
+            // 
+            this.groupBox21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox21.Controls.Add(this.txtbx_customerPlaceDelete);
+            this.groupBox21.Controls.Add(this.txtbx_customerNameDelete);
+            this.groupBox21.Controls.Add(this.label65);
+            this.groupBox21.Controls.Add(this.label66);
+            this.groupBox21.Location = new System.Drawing.Point(3, 7);
+            this.groupBox21.Name = "groupBox21";
+            this.groupBox21.Size = new System.Drawing.Size(362, 194);
+            this.groupBox21.TabIndex = 6;
+            this.groupBox21.TabStop = false;
+            this.groupBox21.Text = "Customer Info";
+            // 
+            // txtbx_customerPlaceDelete
+            // 
+            this.txtbx_customerPlaceDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_customerPlaceDelete.Enabled = false;
+            this.txtbx_customerPlaceDelete.Location = new System.Drawing.Point(42, 75);
+            this.txtbx_customerPlaceDelete.Multiline = true;
+            this.txtbx_customerPlaceDelete.Name = "txtbx_customerPlaceDelete";
+            this.txtbx_customerPlaceDelete.ReadOnly = true;
+            this.txtbx_customerPlaceDelete.Size = new System.Drawing.Size(307, 98);
+            this.txtbx_customerPlaceDelete.TabIndex = 8;
+            // 
+            // txtbx_customerNameDelete
+            // 
+            this.txtbx_customerNameDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_customerNameDelete.Enabled = false;
+            this.txtbx_customerNameDelete.Location = new System.Drawing.Point(45, 30);
+            this.txtbx_customerNameDelete.Name = "txtbx_customerNameDelete";
+            this.txtbx_customerNameDelete.ReadOnly = true;
+            this.txtbx_customerNameDelete.Size = new System.Drawing.Size(304, 20);
+            this.txtbx_customerNameDelete.TabIndex = 7;
+            // 
+            // label65
+            // 
+            this.label65.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(3, 114);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(37, 13);
+            this.label65.TabIndex = 1;
+            this.label65.Text = "Place:";
+            // 
+            // label66
+            // 
+            this.label66.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(6, 33);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(38, 13);
+            this.label66.TabIndex = 0;
+            this.label66.Text = "Name:";
+            // 
+            // tableLayoutPanel15
+            // 
+            this.tableLayoutPanel15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel15.ColumnCount = 2;
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.79783F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.20216F));
+            this.tableLayoutPanel15.Controls.Add(this.groupBox18, 0, 0);
+            this.tableLayoutPanel15.Controls.Add(this.groupBox19, 1, 0);
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(11, 41);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            this.tableLayoutPanel15.RowCount = 1;
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(836, 71);
+            this.tableLayoutPanel15.TabIndex = 13;
+            // 
+            // groupBox18
+            // 
+            this.groupBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox18.Controls.Add(this.label56);
+            this.groupBox18.ForeColor = System.Drawing.Color.Red;
+            this.groupBox18.Location = new System.Drawing.Point(3, 18);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Size = new System.Drawing.Size(226, 34);
+            this.groupBox18.TabIndex = 0;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "GSTIN No.:";
+            // 
+            // label56
+            // 
+            this.label56.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label56.AutoSize = true;
+            this.label56.ForeColor = System.Drawing.Color.Blue;
+            this.label56.Location = new System.Drawing.Point(6, 16);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(107, 13);
+            this.label56.TabIndex = 1;
+            this.label56.Text = "23BGMPP8430L1ZY";
+            // 
+            // groupBox19
+            // 
+            this.groupBox19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox19.Controls.Add(this.txtbx_dateDelete);
+            this.groupBox19.Controls.Add(this.label57);
+            this.groupBox19.Controls.Add(this.label58);
+            this.groupBox19.Controls.Add(this.txtbx_invoiceNoDelete);
+            this.groupBox19.ForeColor = System.Drawing.Color.Red;
+            this.groupBox19.Location = new System.Drawing.Point(235, 4);
+            this.groupBox19.Name = "groupBox19";
+            this.groupBox19.Size = new System.Drawing.Size(598, 62);
+            this.groupBox19.TabIndex = 10;
+            this.groupBox19.TabStop = false;
+            this.groupBox19.Text = "Bill Info:";
+            // 
+            // txtbx_dateDelete
+            // 
+            this.txtbx_dateDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_dateDelete.Enabled = false;
+            this.txtbx_dateDelete.Location = new System.Drawing.Point(108, 37);
+            this.txtbx_dateDelete.Name = "txtbx_dateDelete";
+            this.txtbx_dateDelete.ReadOnly = true;
+            this.txtbx_dateDelete.Size = new System.Drawing.Size(480, 20);
+            this.txtbx_dateDelete.TabIndex = 6;
+            // 
+            // label57
+            // 
+            this.label57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Location = new System.Drawing.Point(6, 16);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(96, 13);
+            this.label57.TabIndex = 2;
+            this.label57.Text = "Invoice Number";
+            // 
+            // label58
+            // 
+            this.label58.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(6, 37);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(34, 13);
+            this.label58.TabIndex = 4;
+            this.label58.Text = "Date";
+            // 
+            // txtbx_invoiceNoDelete
+            // 
+            this.txtbx_invoiceNoDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_invoiceNoDelete.Enabled = false;
+            this.txtbx_invoiceNoDelete.Location = new System.Drawing.Point(108, 13);
+            this.txtbx_invoiceNoDelete.Name = "txtbx_invoiceNoDelete";
+            this.txtbx_invoiceNoDelete.ReadOnly = true;
+            this.txtbx_invoiceNoDelete.Size = new System.Drawing.Size(480, 20);
+            this.txtbx_invoiceNoDelete.TabIndex = 5;
+            // 
+            // tableLayoutPanel14
+            // 
+            this.tableLayoutPanel14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel14.ColumnCount = 5;
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.14815F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.85185F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
+            this.tableLayoutPanel14.Controls.Add(this.btn_delete, 4, 0);
+            this.tableLayoutPanel14.Controls.Add(this.btn_cancelDelete, 3, 0);
+            this.tableLayoutPanel14.Controls.Add(this.label55, 0, 0);
+            this.tableLayoutPanel14.Controls.Add(this.txtbx_enterInvoiceDelete, 1, 0);
+            this.tableLayoutPanel14.Controls.Add(this.btn_viewBillDelete, 2, 0);
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(11, 6);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            this.tableLayoutPanel14.RowCount = 1;
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(836, 29);
+            this.tableLayoutPanel14.TabIndex = 1;
+            // 
+            // btn_delete
+            // 
+            this.btn_delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_delete.Enabled = false;
+            this.btn_delete.Location = new System.Drawing.Point(671, 3);
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.Size = new System.Drawing.Size(162, 23);
+            this.btn_delete.TabIndex = 4;
+            this.btn_delete.Text = "Delete";
+            this.btn_delete.UseVisualStyleBackColor = true;
+            // 
+            // btn_cancelDelete
+            // 
+            this.btn_cancelDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_cancelDelete.Location = new System.Drawing.Point(542, 3);
+            this.btn_cancelDelete.Name = "btn_cancelDelete";
+            this.btn_cancelDelete.Size = new System.Drawing.Size(123, 23);
+            this.btn_cancelDelete.TabIndex = 3;
+            this.btn_cancelDelete.Text = "Cancel";
+            this.btn_cancelDelete.UseVisualStyleBackColor = true;
+            // 
+            // label55
+            // 
+            this.label55.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(4, 8);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(108, 13);
+            this.label55.TabIndex = 1;
+            this.label55.Text = "Enter the invoice no.:";
+            // 
+            // txtbx_enterInvoiceDelete
+            // 
+            this.txtbx_enterInvoiceDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_enterInvoiceDelete.Location = new System.Drawing.Point(118, 4);
+            this.txtbx_enterInvoiceDelete.Name = "txtbx_enterInvoiceDelete";
+            this.txtbx_enterInvoiceDelete.Size = new System.Drawing.Size(287, 20);
+            this.txtbx_enterInvoiceDelete.TabIndex = 1;
+            // 
+            // btn_viewBillDelete
+            // 
+            this.btn_viewBillDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_viewBillDelete.Enabled = false;
+            this.btn_viewBillDelete.Location = new System.Drawing.Point(411, 3);
+            this.btn_viewBillDelete.Name = "btn_viewBillDelete";
+            this.btn_viewBillDelete.Size = new System.Drawing.Size(125, 23);
+            this.btn_viewBillDelete.TabIndex = 2;
+            this.btn_viewBillDelete.Text = "Review Bill";
+            this.btn_viewBillDelete.UseVisualStyleBackColor = true;
             // 
             // billsForm
             // 
@@ -3700,7 +3699,6 @@
             this.MinimumSize = new System.Drawing.Size(600, 620);
             this.Name = "billsForm";
             this.Text = "Billing System";
-            this.Load += new System.EventHandler(this.billsForm_Load);
             this.tbctrl_mainTabControl.ResumeLayout(false);
             this.tbp_newBill.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
@@ -3714,7 +3712,7 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.grpbx_billDetails.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datagrid_orderDetails)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.grpbx_GSTIN.ResumeLayout(false);
             this.grpbx_GSTIN.PerformLayout();
@@ -3750,53 +3748,53 @@
             this.tab_selectInvoice.ResumeLayout(false);
             this.tab_selectInvoice.PerformLayout();
             this.tbp_editBill.ResumeLayout(false);
-            this.tbp_deleteBill.ResumeLayout(false);
-            this.tableLayoutPanel9.ResumeLayout(false);
-            this.tableLayoutPanel9.PerformLayout();
-            this.tableLayoutPanel10.ResumeLayout(false);
-            this.groupBox10.ResumeLayout(false);
-            this.groupBox10.PerformLayout();
-            this.groupBox11.ResumeLayout(false);
-            this.groupBox11.PerformLayout();
-            this.tableLayoutPanel11.ResumeLayout(false);
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
-            this.groupBox13.ResumeLayout(false);
-            this.groupBox13.PerformLayout();
-            this.tableLayoutPanel12.ResumeLayout(false);
-            this.tableLayoutPanel12.PerformLayout();
-            this.groupBox14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox17.ResumeLayout(false);
+            this.groupBox17.PerformLayout();
             this.tableLayoutPanel13.ResumeLayout(false);
             this.groupBox15.ResumeLayout(false);
             this.groupBox15.PerformLayout();
             this.groupBox16.ResumeLayout(false);
             this.groupBox16.PerformLayout();
-            this.groupBox17.ResumeLayout(false);
-            this.groupBox17.PerformLayout();
-            this.tableLayoutPanel14.ResumeLayout(false);
-            this.tableLayoutPanel14.PerformLayout();
-            this.tableLayoutPanel15.ResumeLayout(false);
-            this.groupBox18.ResumeLayout(false);
-            this.groupBox18.PerformLayout();
-            this.groupBox19.ResumeLayout(false);
-            this.groupBox19.PerformLayout();
-            this.tableLayoutPanel16.ResumeLayout(false);
-            this.groupBox20.ResumeLayout(false);
-            this.groupBox20.PerformLayout();
-            this.groupBox21.ResumeLayout(false);
-            this.groupBox21.PerformLayout();
-            this.tableLayoutPanel17.ResumeLayout(false);
-            this.tableLayoutPanel17.PerformLayout();
-            this.groupBox22.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.datagrid_billDetailsDelete)).EndInit();
+            this.tableLayoutPanel12.ResumeLayout(false);
+            this.tableLayoutPanel12.PerformLayout();
+            this.groupBox14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.tableLayoutPanel11.ResumeLayout(false);
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            this.tableLayoutPanel10.ResumeLayout(false);
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.tableLayoutPanel9.PerformLayout();
+            this.tbp_deleteBill.ResumeLayout(false);
+            this.groupBox25.ResumeLayout(false);
+            this.groupBox25.PerformLayout();
             this.tableLayoutPanel18.ResumeLayout(false);
             this.groupBox23.ResumeLayout(false);
             this.groupBox23.PerformLayout();
             this.groupBox24.ResumeLayout(false);
             this.groupBox24.PerformLayout();
-            this.groupBox25.ResumeLayout(false);
-            this.groupBox25.PerformLayout();
+            this.tableLayoutPanel17.ResumeLayout(false);
+            this.tableLayoutPanel17.PerformLayout();
+            this.groupBox22.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.datagrid_billDetailsDelete)).EndInit();
+            this.tableLayoutPanel16.ResumeLayout(false);
+            this.groupBox20.ResumeLayout(false);
+            this.groupBox20.PerformLayout();
+            this.groupBox21.ResumeLayout(false);
+            this.groupBox21.PerformLayout();
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.groupBox18.ResumeLayout(false);
+            this.groupBox18.PerformLayout();
+            this.groupBox19.ResumeLayout(false);
+            this.groupBox19.PerformLayout();
+            this.tableLayoutPanel14.ResumeLayout(false);
+            this.tableLayoutPanel14.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -3823,16 +3821,16 @@
         private System.Windows.Forms.Label lbl_driverLic;
         private System.Windows.Forms.Label lbl_driverName;
         private System.Windows.Forms.Label lbl_truckNo;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtbx_transport;
         private System.Windows.Forms.Label lbl_transport;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtbx_driverNo;
+        private System.Windows.Forms.TextBox txtbx_licNo;
         private System.Windows.Forms.Label lbl_driverNumber;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtbx_driverName;
+        private System.Windows.Forms.TextBox txtbx_truckNo;
         private System.Windows.Forms.TextBox txtbx_brokerName;
         private System.Windows.Forms.GroupBox grpbx_billDetails;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView datagrid_orderDetails;
         private System.Windows.Forms.TableLayoutPanel tab_upperpart;
         private System.Windows.Forms.GroupBox grpbx_GSTIN;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -3848,11 +3846,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn AmountP;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.GroupBox grpbx_totals;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtbx_totalAmount;
+        private System.Windows.Forms.TextBox txtbx_totalWeight;
+        private System.Windows.Forms.TextBox txtbx_totalPkg;
+        private System.Windows.Forms.TextBox txtbx_totalQtl;
+        private System.Windows.Forms.TextBox txtbx_insuranceAmount;
         private System.Windows.Forms.Label lbl_totalAmount;
         private System.Windows.Forms.Label lbl_weight;
         private System.Windows.Forms.Label lbl_totalPkg;
@@ -3865,13 +3863,13 @@
         private System.Windows.Forms.Label lbl_IFSC;
         private System.Windows.Forms.Label lbl_AC;
         private System.Windows.Forms.Label lbl_bank;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtbx_policyNo;
+        private System.Windows.Forms.TextBox txtbx_insurance;
         private System.Windows.Forms.Label lbl_policyNumber;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.GroupBox grpbx_valuesInWords;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtbx_freightAmount;
         private System.Windows.Forms.Label lbl_freightAmount;
         private System.Windows.Forms.TextBox txtbx_freightRate;
         private System.Windows.Forms.Label lbl_freightRate;
