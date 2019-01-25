@@ -36,5 +36,10 @@ namespace AccountingSoftware
         {
 
         }
+
+        private void tbp_viewBill_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
