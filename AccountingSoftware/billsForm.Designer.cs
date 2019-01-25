@@ -30,6 +30,39 @@
         {
             this.tbctrl_mainTabControl = new System.Windows.Forms.TabControl();
             this.tbp_newBill = new System.Windows.Forms.TabPage();
+            this.btn_cancel = new System.Windows.Forms.Button();
+            this.btn_Save = new System.Windows.Forms.Button();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.grpbx_valuesInWords = new System.Windows.Forms.GroupBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.lbl_freightAmount = new System.Windows.Forms.Label();
+            this.txtbx_freightRate = new System.Windows.Forms.TextBox();
+            this.lbl_freightRate = new System.Windows.Forms.Label();
+            this.txtbx_RsWords = new System.Windows.Forms.TextBox();
+            this.lbl_RSWords = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.grpbx_totals = new System.Windows.Forms.GroupBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.lbl_totalAmount = new System.Windows.Forms.Label();
+            this.lbl_weight = new System.Windows.Forms.Label();
+            this.lbl_totalPkg = new System.Windows.Forms.Label();
+            this.lbl_Qtl = new System.Windows.Forms.Label();
+            this.lbl_insuranceAmount = new System.Windows.Forms.Label();
+            this.grpbx_banckerInfo = new System.Windows.Forms.GroupBox();
+            this.lbl_IFSCValue = new System.Windows.Forms.Label();
+            this.lbl_ACValue = new System.Windows.Forms.Label();
+            this.lbl_bankValue = new System.Windows.Forms.Label();
+            this.lbl_IFSC = new System.Windows.Forms.Label();
+            this.lbl_AC = new System.Windows.Forms.Label();
+            this.lbl_bank = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.lbl_policyNumber = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.grpbx_billDetails = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -71,39 +104,13 @@
             this.tbp_viewBill = new System.Windows.Forms.TabPage();
             this.tbp_editBill = new System.Windows.Forms.TabPage();
             this.tbp_deleteBill = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.grpbx_totals = new System.Windows.Forms.GroupBox();
-            this.lbl_insuranceAmount = new System.Windows.Forms.Label();
-            this.lbl_Qtl = new System.Windows.Forms.Label();
-            this.lbl_totalPkg = new System.Windows.Forms.Label();
-            this.lbl_weight = new System.Windows.Forms.Label();
-            this.lbl_totalAmount = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.grpbx_banckerInfo = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.lbl_policyNumber = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lbl_bank = new System.Windows.Forms.Label();
-            this.lbl_AC = new System.Windows.Forms.Label();
-            this.lbl_IFSC = new System.Windows.Forms.Label();
-            this.lbl_bankValue = new System.Windows.Forms.Label();
-            this.lbl_ACValue = new System.Windows.Forms.Label();
-            this.lbl_IFSCValue = new System.Windows.Forms.Label();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.grpbx_valuesInWords = new System.Windows.Forms.GroupBox();
-            this.lbl_RSWords = new System.Windows.Forms.Label();
-            this.txtbx_RsWords = new System.Windows.Forms.TextBox();
-            this.lbl_freightRate = new System.Windows.Forms.Label();
-            this.txtbx_freightRate = new System.Windows.Forms.TextBox();
-            this.lbl_freightAmount = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
             this.tbctrl_mainTabControl.SuspendLayout();
             this.tbp_newBill.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.grpbx_valuesInWords.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.grpbx_totals.SuspendLayout();
+            this.grpbx_banckerInfo.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.grpbx_billDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -113,17 +120,11 @@
             this.tab_upperpart.SuspendLayout();
             this.grpbx_driverInfo.SuspendLayout();
             this.grpbx_customerInfo.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.grpbx_totals.SuspendLayout();
-            this.grpbx_banckerInfo.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.grpbx_valuesInWords.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbctrl_mainTabControl
             // 
-            this.tbctrl_mainTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.tbctrl_mainTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbctrl_mainTabControl.Controls.Add(this.tbp_newBill);
             this.tbctrl_mainTabControl.Controls.Add(this.tbp_viewBill);
@@ -133,12 +134,14 @@
             this.tbctrl_mainTabControl.Location = new System.Drawing.Point(1, 1);
             this.tbctrl_mainTabControl.Name = "tbctrl_mainTabControl";
             this.tbctrl_mainTabControl.SelectedIndex = 0;
-            this.tbctrl_mainTabControl.Size = new System.Drawing.Size(861, 838);
+            this.tbctrl_mainTabControl.Size = new System.Drawing.Size(861, 870);
             this.tbctrl_mainTabControl.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.tbctrl_mainTabControl.TabIndex = 0;
             // 
             // tbp_newBill
             // 
+            this.tbp_newBill.Controls.Add(this.btn_cancel);
+            this.tbp_newBill.Controls.Add(this.btn_Save);
             this.tbp_newBill.Controls.Add(this.tableLayoutPanel4);
             this.tbp_newBill.Controls.Add(this.tableLayoutPanel3);
             this.tbp_newBill.Controls.Add(this.tableLayoutPanel2);
@@ -147,10 +150,367 @@
             this.tbp_newBill.Location = new System.Drawing.Point(4, 22);
             this.tbp_newBill.Name = "tbp_newBill";
             this.tbp_newBill.Padding = new System.Windows.Forms.Padding(3);
-            this.tbp_newBill.Size = new System.Drawing.Size(853, 812);
+            this.tbp_newBill.Size = new System.Drawing.Size(853, 844);
             this.tbp_newBill.TabIndex = 0;
             this.tbp_newBill.Text = "New bill";
             this.tbp_newBill.UseVisualStyleBackColor = true;
+            // 
+            // btn_cancel
+            // 
+            this.btn_cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_cancel.Location = new System.Drawing.Point(764, 811);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Size = new System.Drawing.Size(75, 23);
+            this.btn_cancel.TabIndex = 16;
+            this.btn_cancel.Text = "Cancel";
+            this.btn_cancel.UseVisualStyleBackColor = true;
+            // 
+            // btn_Save
+            // 
+            this.btn_Save.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Save.Location = new System.Drawing.Point(683, 811);
+            this.btn_Save.Name = "btn_Save";
+            this.btn_Save.Size = new System.Drawing.Size(75, 23);
+            this.btn_Save.TabIndex = 15;
+            this.btn_Save.Text = "Save";
+            this.btn_Save.UseVisualStyleBackColor = true;
+            this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel4.ColumnCount = 1;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.Controls.Add(this.grpbx_valuesInWords, 0, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(9, 709);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 96F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(831, 96);
+            this.tableLayoutPanel4.TabIndex = 14;
+            // 
+            // grpbx_valuesInWords
+            // 
+            this.grpbx_valuesInWords.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.grpbx_valuesInWords.Controls.Add(this.textBox13);
+            this.grpbx_valuesInWords.Controls.Add(this.lbl_freightAmount);
+            this.grpbx_valuesInWords.Controls.Add(this.txtbx_freightRate);
+            this.grpbx_valuesInWords.Controls.Add(this.lbl_freightRate);
+            this.grpbx_valuesInWords.Controls.Add(this.txtbx_RsWords);
+            this.grpbx_valuesInWords.Controls.Add(this.lbl_RSWords);
+            this.grpbx_valuesInWords.Location = new System.Drawing.Point(3, 3);
+            this.grpbx_valuesInWords.Name = "grpbx_valuesInWords";
+            this.grpbx_valuesInWords.Size = new System.Drawing.Size(825, 90);
+            this.grpbx_valuesInWords.TabIndex = 0;
+            this.grpbx_valuesInWords.TabStop = false;
+            this.grpbx_valuesInWords.Text = "Freight Rate";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox13.Location = new System.Drawing.Point(126, 64);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(689, 20);
+            this.textBox13.TabIndex = 5;
+            // 
+            // lbl_freightAmount
+            // 
+            this.lbl_freightAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_freightAmount.AutoSize = true;
+            this.lbl_freightAmount.Location = new System.Drawing.Point(3, 67);
+            this.lbl_freightAmount.Name = "lbl_freightAmount";
+            this.lbl_freightAmount.Size = new System.Drawing.Size(114, 13);
+            this.lbl_freightAmount.TabIndex = 4;
+            this.lbl_freightAmount.Text = "Freight Amount @ Rs.:";
+            // 
+            // txtbx_freightRate
+            // 
+            this.txtbx_freightRate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_freightRate.Location = new System.Drawing.Point(111, 39);
+            this.txtbx_freightRate.Name = "txtbx_freightRate";
+            this.txtbx_freightRate.Size = new System.Drawing.Size(704, 20);
+            this.txtbx_freightRate.TabIndex = 3;
+            // 
+            // lbl_freightRate
+            // 
+            this.lbl_freightRate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_freightRate.AutoSize = true;
+            this.lbl_freightRate.Location = new System.Drawing.Point(4, 42);
+            this.lbl_freightRate.Name = "lbl_freightRate";
+            this.lbl_freightRate.Size = new System.Drawing.Size(101, 13);
+            this.lbl_freightRate.TabIndex = 2;
+            this.lbl_freightRate.Text = "Freight Rate @ Rs.:";
+            // 
+            // txtbx_RsWords
+            // 
+            this.txtbx_RsWords.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbx_RsWords.Location = new System.Drawing.Point(81, 13);
+            this.txtbx_RsWords.Name = "txtbx_RsWords";
+            this.txtbx_RsWords.Size = new System.Drawing.Size(734, 20);
+            this.txtbx_RsWords.TabIndex = 1;
+            // 
+            // lbl_RSWords
+            // 
+            this.lbl_RSWords.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_RSWords.AutoSize = true;
+            this.lbl_RSWords.Location = new System.Drawing.Point(3, 16);
+            this.lbl_RSWords.Name = "lbl_RSWords";
+            this.lbl_RSWords.Size = new System.Drawing.Size(74, 13);
+            this.lbl_RSWords.TabIndex = 0;
+            this.lbl_RSWords.Text = "Rs. (in words):";
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Controls.Add(this.grpbx_totals, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.grpbx_banckerInfo, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(9, 560);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(830, 143);
+            this.tableLayoutPanel3.TabIndex = 13;
+            // 
+            // grpbx_totals
+            // 
+            this.grpbx_totals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.grpbx_totals.Controls.Add(this.textBox10);
+            this.grpbx_totals.Controls.Add(this.textBox9);
+            this.grpbx_totals.Controls.Add(this.textBox8);
+            this.grpbx_totals.Controls.Add(this.textBox7);
+            this.grpbx_totals.Controls.Add(this.textBox6);
+            this.grpbx_totals.Controls.Add(this.lbl_totalAmount);
+            this.grpbx_totals.Controls.Add(this.lbl_weight);
+            this.grpbx_totals.Controls.Add(this.lbl_totalPkg);
+            this.grpbx_totals.Controls.Add(this.lbl_Qtl);
+            this.grpbx_totals.Controls.Add(this.lbl_insuranceAmount);
+            this.grpbx_totals.Location = new System.Drawing.Point(418, 8);
+            this.grpbx_totals.Name = "grpbx_totals";
+            this.grpbx_totals.Size = new System.Drawing.Size(409, 126);
+            this.grpbx_totals.TabIndex = 15;
+            this.grpbx_totals.TabStop = false;
+            this.grpbx_totals.Text = "Totals";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox10.Location = new System.Drawing.Point(83, 101);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(317, 20);
+            this.textBox10.TabIndex = 22;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox9.Location = new System.Drawing.Point(83, 79);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(317, 20);
+            this.textBox9.TabIndex = 22;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox8.Location = new System.Drawing.Point(83, 57);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(317, 20);
+            this.textBox8.TabIndex = 22;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox7.Location = new System.Drawing.Point(83, 35);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(317, 20);
+            this.textBox7.TabIndex = 21;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox6.Location = new System.Drawing.Point(83, 13);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(317, 20);
+            this.textBox6.TabIndex = 20;
+            // 
+            // lbl_totalAmount
+            // 
+            this.lbl_totalAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_totalAmount.AutoSize = true;
+            this.lbl_totalAmount.Location = new System.Drawing.Point(6, 104);
+            this.lbl_totalAmount.Name = "lbl_totalAmount";
+            this.lbl_totalAmount.Size = new System.Drawing.Size(73, 13);
+            this.lbl_totalAmount.TabIndex = 19;
+            this.lbl_totalAmount.Text = "Total Amount:";
+            // 
+            // lbl_weight
+            // 
+            this.lbl_weight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_weight.AutoSize = true;
+            this.lbl_weight.Location = new System.Drawing.Point(6, 82);
+            this.lbl_weight.Name = "lbl_weight";
+            this.lbl_weight.Size = new System.Drawing.Size(71, 13);
+            this.lbl_weight.TabIndex = 18;
+            this.lbl_weight.Text = "Total Weight:";
+            // 
+            // lbl_totalPkg
+            // 
+            this.lbl_totalPkg.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_totalPkg.AutoSize = true;
+            this.lbl_totalPkg.Location = new System.Drawing.Point(6, 60);
+            this.lbl_totalPkg.Name = "lbl_totalPkg";
+            this.lbl_totalPkg.Size = new System.Drawing.Size(59, 13);
+            this.lbl_totalPkg.TabIndex = 17;
+            this.lbl_totalPkg.Text = "Total Pkg.:";
+            // 
+            // lbl_Qtl
+            // 
+            this.lbl_Qtl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_Qtl.AutoSize = true;
+            this.lbl_Qtl.Location = new System.Drawing.Point(6, 38);
+            this.lbl_Qtl.Name = "lbl_Qtl";
+            this.lbl_Qtl.Size = new System.Drawing.Size(53, 13);
+            this.lbl_Qtl.TabIndex = 16;
+            this.lbl_Qtl.Text = "Total Qtl.:";
+            // 
+            // lbl_insuranceAmount
+            // 
+            this.lbl_insuranceAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_insuranceAmount.AutoSize = true;
+            this.lbl_insuranceAmount.Location = new System.Drawing.Point(8, 16);
+            this.lbl_insuranceAmount.Name = "lbl_insuranceAmount";
+            this.lbl_insuranceAmount.Size = new System.Drawing.Size(57, 13);
+            this.lbl_insuranceAmount.TabIndex = 15;
+            this.lbl_insuranceAmount.Text = "Insurance:";
+            // 
+            // grpbx_banckerInfo
+            // 
+            this.grpbx_banckerInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.grpbx_banckerInfo.Controls.Add(this.lbl_IFSCValue);
+            this.grpbx_banckerInfo.Controls.Add(this.lbl_ACValue);
+            this.grpbx_banckerInfo.Controls.Add(this.lbl_bankValue);
+            this.grpbx_banckerInfo.Controls.Add(this.lbl_IFSC);
+            this.grpbx_banckerInfo.Controls.Add(this.lbl_AC);
+            this.grpbx_banckerInfo.Controls.Add(this.lbl_bank);
+            this.grpbx_banckerInfo.Controls.Add(this.textBox11);
+            this.grpbx_banckerInfo.Controls.Add(this.textBox12);
+            this.grpbx_banckerInfo.Controls.Add(this.lbl_policyNumber);
+            this.grpbx_banckerInfo.Controls.Add(this.label2);
+            this.grpbx_banckerInfo.Location = new System.Drawing.Point(3, 10);
+            this.grpbx_banckerInfo.Name = "grpbx_banckerInfo";
+            this.grpbx_banckerInfo.Size = new System.Drawing.Size(409, 123);
+            this.grpbx_banckerInfo.TabIndex = 16;
+            this.grpbx_banckerInfo.TabStop = false;
+            this.grpbx_banckerInfo.Text = "Banker Info.";
+            // 
+            // lbl_IFSCValue
+            // 
+            this.lbl_IFSCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_IFSCValue.AutoSize = true;
+            this.lbl_IFSCValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_IFSCValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lbl_IFSCValue.Location = new System.Drawing.Point(81, 99);
+            this.lbl_IFSCValue.Name = "lbl_IFSCValue";
+            this.lbl_IFSCValue.Size = new System.Drawing.Size(83, 13);
+            this.lbl_IFSCValue.TabIndex = 31;
+            this.lbl_IFSCValue.Text = "SIBL0000442";
+            // 
+            // lbl_ACValue
+            // 
+            this.lbl_ACValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_ACValue.AutoSize = true;
+            this.lbl_ACValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ACValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lbl_ACValue.Location = new System.Drawing.Point(61, 80);
+            this.lbl_ACValue.Name = "lbl_ACValue";
+            this.lbl_ACValue.Size = new System.Drawing.Size(119, 13);
+            this.lbl_ACValue.TabIndex = 30;
+            this.lbl_ACValue.Text = "0442073000000529";
+            // 
+            // lbl_bankValue
+            // 
+            this.lbl_bankValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_bankValue.AutoSize = true;
+            this.lbl_bankValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_bankValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lbl_bankValue.Location = new System.Drawing.Point(45, 62);
+            this.lbl_bankValue.Name = "lbl_bankValue";
+            this.lbl_bankValue.Size = new System.Drawing.Size(186, 13);
+            this.lbl_bankValue.TabIndex = 29;
+            this.lbl_bankValue.Text = "SOUTH INDIAN BANK INDORE";
+            // 
+            // lbl_IFSC
+            // 
+            this.lbl_IFSC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_IFSC.AutoSize = true;
+            this.lbl_IFSC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_IFSC.Location = new System.Drawing.Point(6, 99);
+            this.lbl_IFSC.Name = "lbl_IFSC";
+            this.lbl_IFSC.Size = new System.Drawing.Size(76, 13);
+            this.lbl_IFSC.TabIndex = 28;
+            this.lbl_IFSC.Text = "IFSC CODE:";
+            // 
+            // lbl_AC
+            // 
+            this.lbl_AC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_AC.AutoSize = true;
+            this.lbl_AC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_AC.Location = new System.Drawing.Point(6, 80);
+            this.lbl_AC.Name = "lbl_AC";
+            this.lbl_AC.Size = new System.Drawing.Size(56, 13);
+            this.lbl_AC.TabIndex = 27;
+            this.lbl_AC.Text = "A/c No.:";
+            // 
+            // lbl_bank
+            // 
+            this.lbl_bank.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_bank.AutoSize = true;
+            this.lbl_bank.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_bank.Location = new System.Drawing.Point(6, 62);
+            this.lbl_bank.Name = "lbl_bank";
+            this.lbl_bank.Size = new System.Drawing.Size(40, 13);
+            this.lbl_bank.TabIndex = 26;
+            this.lbl_bank.Text = "Bank:";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox11.Location = new System.Drawing.Point(81, 37);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(317, 20);
+            this.textBox11.TabIndex = 25;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox12.Location = new System.Drawing.Point(81, 15);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(317, 20);
+            this.textBox12.TabIndex = 24;
+            // 
+            // lbl_policyNumber
+            // 
+            this.lbl_policyNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_policyNumber.AutoSize = true;
+            this.lbl_policyNumber.Location = new System.Drawing.Point(4, 40);
+            this.lbl_policyNumber.Name = "lbl_policyNumber";
+            this.lbl_policyNumber.Size = new System.Drawing.Size(58, 13);
+            this.lbl_policyNumber.TabIndex = 23;
+            this.lbl_policyNumber.Text = "Policy No.:";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 13);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "Insurance:";
             // 
             // tableLayoutPanel2
             // 
@@ -547,7 +907,7 @@
             this.tbp_viewBill.Location = new System.Drawing.Point(4, 22);
             this.tbp_viewBill.Name = "tbp_viewBill";
             this.tbp_viewBill.Padding = new System.Windows.Forms.Padding(3);
-            this.tbp_viewBill.Size = new System.Drawing.Size(879, 570);
+            this.tbp_viewBill.Size = new System.Drawing.Size(853, 844);
             this.tbp_viewBill.TabIndex = 1;
             this.tbp_viewBill.Text = "View bill";
             this.tbp_viewBill.UseVisualStyleBackColor = true;
@@ -556,7 +916,7 @@
             // 
             this.tbp_editBill.Location = new System.Drawing.Point(4, 22);
             this.tbp_editBill.Name = "tbp_editBill";
-            this.tbp_editBill.Size = new System.Drawing.Size(879, 570);
+            this.tbp_editBill.Size = new System.Drawing.Size(853, 844);
             this.tbp_editBill.TabIndex = 2;
             this.tbp_editBill.Text = "Edit bill";
             this.tbp_editBill.UseVisualStyleBackColor = true;
@@ -565,359 +925,33 @@
             // 
             this.tbp_deleteBill.Location = new System.Drawing.Point(4, 22);
             this.tbp_deleteBill.Name = "tbp_deleteBill";
-            this.tbp_deleteBill.Size = new System.Drawing.Size(879, 570);
+            this.tbp_deleteBill.Size = new System.Drawing.Size(853, 844);
             this.tbp_deleteBill.TabIndex = 3;
             this.tbp_deleteBill.Text = "Delete bill";
             this.tbp_deleteBill.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.grpbx_totals, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.grpbx_banckerInfo, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(9, 560);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(830, 143);
-            this.tableLayoutPanel3.TabIndex = 13;
-            // 
-            // grpbx_totals
-            // 
-            this.grpbx_totals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbx_totals.Controls.Add(this.textBox10);
-            this.grpbx_totals.Controls.Add(this.textBox9);
-            this.grpbx_totals.Controls.Add(this.textBox8);
-            this.grpbx_totals.Controls.Add(this.textBox7);
-            this.grpbx_totals.Controls.Add(this.textBox6);
-            this.grpbx_totals.Controls.Add(this.lbl_totalAmount);
-            this.grpbx_totals.Controls.Add(this.lbl_weight);
-            this.grpbx_totals.Controls.Add(this.lbl_totalPkg);
-            this.grpbx_totals.Controls.Add(this.lbl_Qtl);
-            this.grpbx_totals.Controls.Add(this.lbl_insuranceAmount);
-            this.grpbx_totals.Location = new System.Drawing.Point(418, 8);
-            this.grpbx_totals.Name = "grpbx_totals";
-            this.grpbx_totals.Size = new System.Drawing.Size(409, 126);
-            this.grpbx_totals.TabIndex = 15;
-            this.grpbx_totals.TabStop = false;
-            this.grpbx_totals.Text = "Totals";
-            // 
-            // lbl_insuranceAmount
-            // 
-            this.lbl_insuranceAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_insuranceAmount.AutoSize = true;
-            this.lbl_insuranceAmount.Location = new System.Drawing.Point(8, 16);
-            this.lbl_insuranceAmount.Name = "lbl_insuranceAmount";
-            this.lbl_insuranceAmount.Size = new System.Drawing.Size(57, 13);
-            this.lbl_insuranceAmount.TabIndex = 15;
-            this.lbl_insuranceAmount.Text = "Insurance:";
-            // 
-            // lbl_Qtl
-            // 
-            this.lbl_Qtl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_Qtl.AutoSize = true;
-            this.lbl_Qtl.Location = new System.Drawing.Point(6, 38);
-            this.lbl_Qtl.Name = "lbl_Qtl";
-            this.lbl_Qtl.Size = new System.Drawing.Size(53, 13);
-            this.lbl_Qtl.TabIndex = 16;
-            this.lbl_Qtl.Text = "Total Qtl.:";
-            // 
-            // lbl_totalPkg
-            // 
-            this.lbl_totalPkg.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_totalPkg.AutoSize = true;
-            this.lbl_totalPkg.Location = new System.Drawing.Point(6, 60);
-            this.lbl_totalPkg.Name = "lbl_totalPkg";
-            this.lbl_totalPkg.Size = new System.Drawing.Size(59, 13);
-            this.lbl_totalPkg.TabIndex = 17;
-            this.lbl_totalPkg.Text = "Total Pkg.:";
-            // 
-            // lbl_weight
-            // 
-            this.lbl_weight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_weight.AutoSize = true;
-            this.lbl_weight.Location = new System.Drawing.Point(6, 82);
-            this.lbl_weight.Name = "lbl_weight";
-            this.lbl_weight.Size = new System.Drawing.Size(71, 13);
-            this.lbl_weight.TabIndex = 18;
-            this.lbl_weight.Text = "Total Weight:";
-            // 
-            // lbl_totalAmount
-            // 
-            this.lbl_totalAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_totalAmount.AutoSize = true;
-            this.lbl_totalAmount.Location = new System.Drawing.Point(6, 104);
-            this.lbl_totalAmount.Name = "lbl_totalAmount";
-            this.lbl_totalAmount.Size = new System.Drawing.Size(73, 13);
-            this.lbl_totalAmount.TabIndex = 19;
-            this.lbl_totalAmount.Text = "Total Amount:";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.Location = new System.Drawing.Point(83, 13);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(317, 20);
-            this.textBox6.TabIndex = 20;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(83, 35);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(317, 20);
-            this.textBox7.TabIndex = 21;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(83, 57);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(317, 20);
-            this.textBox8.TabIndex = 22;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox9.Location = new System.Drawing.Point(83, 79);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(317, 20);
-            this.textBox9.TabIndex = 22;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox10.Location = new System.Drawing.Point(83, 101);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(317, 20);
-            this.textBox10.TabIndex = 22;
-            // 
-            // grpbx_banckerInfo
-            // 
-            this.grpbx_banckerInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbx_banckerInfo.Controls.Add(this.lbl_IFSCValue);
-            this.grpbx_banckerInfo.Controls.Add(this.lbl_ACValue);
-            this.grpbx_banckerInfo.Controls.Add(this.lbl_bankValue);
-            this.grpbx_banckerInfo.Controls.Add(this.lbl_IFSC);
-            this.grpbx_banckerInfo.Controls.Add(this.lbl_AC);
-            this.grpbx_banckerInfo.Controls.Add(this.lbl_bank);
-            this.grpbx_banckerInfo.Controls.Add(this.textBox11);
-            this.grpbx_banckerInfo.Controls.Add(this.textBox12);
-            this.grpbx_banckerInfo.Controls.Add(this.lbl_policyNumber);
-            this.grpbx_banckerInfo.Controls.Add(this.label2);
-            this.grpbx_banckerInfo.Location = new System.Drawing.Point(3, 10);
-            this.grpbx_banckerInfo.Name = "grpbx_banckerInfo";
-            this.grpbx_banckerInfo.Size = new System.Drawing.Size(409, 123);
-            this.grpbx_banckerInfo.TabIndex = 16;
-            this.grpbx_banckerInfo.TabStop = false;
-            this.grpbx_banckerInfo.Text = "Banker Info.";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox11.Location = new System.Drawing.Point(81, 37);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(317, 20);
-            this.textBox11.TabIndex = 25;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox12.Location = new System.Drawing.Point(81, 15);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(317, 20);
-            this.textBox12.TabIndex = 24;
-            // 
-            // lbl_policyNumber
-            // 
-            this.lbl_policyNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_policyNumber.AutoSize = true;
-            this.lbl_policyNumber.Location = new System.Drawing.Point(4, 40);
-            this.lbl_policyNumber.Name = "lbl_policyNumber";
-            this.lbl_policyNumber.Size = new System.Drawing.Size(58, 13);
-            this.lbl_policyNumber.TabIndex = 23;
-            this.lbl_policyNumber.Text = "Policy No.:";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "Insurance:";
-            // 
-            // lbl_bank
-            // 
-            this.lbl_bank.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_bank.AutoSize = true;
-            this.lbl_bank.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_bank.Location = new System.Drawing.Point(6, 62);
-            this.lbl_bank.Name = "lbl_bank";
-            this.lbl_bank.Size = new System.Drawing.Size(40, 13);
-            this.lbl_bank.TabIndex = 26;
-            this.lbl_bank.Text = "Bank:";
-            // 
-            // lbl_AC
-            // 
-            this.lbl_AC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_AC.AutoSize = true;
-            this.lbl_AC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_AC.Location = new System.Drawing.Point(6, 80);
-            this.lbl_AC.Name = "lbl_AC";
-            this.lbl_AC.Size = new System.Drawing.Size(56, 13);
-            this.lbl_AC.TabIndex = 27;
-            this.lbl_AC.Text = "A/c No.:";
-            // 
-            // lbl_IFSC
-            // 
-            this.lbl_IFSC.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_IFSC.AutoSize = true;
-            this.lbl_IFSC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_IFSC.Location = new System.Drawing.Point(6, 99);
-            this.lbl_IFSC.Name = "lbl_IFSC";
-            this.lbl_IFSC.Size = new System.Drawing.Size(76, 13);
-            this.lbl_IFSC.TabIndex = 28;
-            this.lbl_IFSC.Text = "IFSC CODE:";
-            // 
-            // lbl_bankValue
-            // 
-            this.lbl_bankValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_bankValue.AutoSize = true;
-            this.lbl_bankValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_bankValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbl_bankValue.Location = new System.Drawing.Point(45, 62);
-            this.lbl_bankValue.Name = "lbl_bankValue";
-            this.lbl_bankValue.Size = new System.Drawing.Size(186, 13);
-            this.lbl_bankValue.TabIndex = 29;
-            this.lbl_bankValue.Text = "SOUTH INDIAN BANK INDORE";
-            // 
-            // lbl_ACValue
-            // 
-            this.lbl_ACValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_ACValue.AutoSize = true;
-            this.lbl_ACValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ACValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbl_ACValue.Location = new System.Drawing.Point(61, 80);
-            this.lbl_ACValue.Name = "lbl_ACValue";
-            this.lbl_ACValue.Size = new System.Drawing.Size(119, 13);
-            this.lbl_ACValue.TabIndex = 30;
-            this.lbl_ACValue.Text = "0442073000000529";
-            // 
-            // lbl_IFSCValue
-            // 
-            this.lbl_IFSCValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_IFSCValue.AutoSize = true;
-            this.lbl_IFSCValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_IFSCValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.lbl_IFSCValue.Location = new System.Drawing.Point(81, 99);
-            this.lbl_IFSCValue.Name = "lbl_IFSCValue";
-            this.lbl_IFSCValue.Size = new System.Drawing.Size(83, 13);
-            this.lbl_IFSCValue.TabIndex = 31;
-            this.lbl_IFSCValue.Text = "SIBL0000442";
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel4.ColumnCount = 1;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.grpbx_valuesInWords, 0, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(9, 709);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(831, 96);
-            this.tableLayoutPanel4.TabIndex = 14;
-            // 
-            // grpbx_valuesInWords
-            // 
-            this.grpbx_valuesInWords.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.grpbx_valuesInWords.Controls.Add(this.textBox13);
-            this.grpbx_valuesInWords.Controls.Add(this.lbl_freightAmount);
-            this.grpbx_valuesInWords.Controls.Add(this.txtbx_freightRate);
-            this.grpbx_valuesInWords.Controls.Add(this.lbl_freightRate);
-            this.grpbx_valuesInWords.Controls.Add(this.txtbx_RsWords);
-            this.grpbx_valuesInWords.Controls.Add(this.lbl_RSWords);
-            this.grpbx_valuesInWords.Location = new System.Drawing.Point(3, 3);
-            this.grpbx_valuesInWords.Name = "grpbx_valuesInWords";
-            this.grpbx_valuesInWords.Size = new System.Drawing.Size(825, 90);
-            this.grpbx_valuesInWords.TabIndex = 0;
-            this.grpbx_valuesInWords.TabStop = false;
-            this.grpbx_valuesInWords.Text = "Freight Rate";
-            // 
-            // lbl_RSWords
-            // 
-            this.lbl_RSWords.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_RSWords.AutoSize = true;
-            this.lbl_RSWords.Location = new System.Drawing.Point(3, 16);
-            this.lbl_RSWords.Name = "lbl_RSWords";
-            this.lbl_RSWords.Size = new System.Drawing.Size(74, 13);
-            this.lbl_RSWords.TabIndex = 0;
-            this.lbl_RSWords.Text = "Rs. (in words):";
-            // 
-            // txtbx_RsWords
-            // 
-            this.txtbx_RsWords.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_RsWords.Location = new System.Drawing.Point(81, 13);
-            this.txtbx_RsWords.Name = "txtbx_RsWords";
-            this.txtbx_RsWords.Size = new System.Drawing.Size(734, 20);
-            this.txtbx_RsWords.TabIndex = 1;
-            // 
-            // lbl_freightRate
-            // 
-            this.lbl_freightRate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_freightRate.AutoSize = true;
-            this.lbl_freightRate.Location = new System.Drawing.Point(4, 44);
-            this.lbl_freightRate.Name = "lbl_freightRate";
-            this.lbl_freightRate.Size = new System.Drawing.Size(101, 13);
-            this.lbl_freightRate.TabIndex = 2;
-            this.lbl_freightRate.Text = "Freight Rate @ Rs.:";
-            // 
-            // txtbx_freightRate
-            // 
-            this.txtbx_freightRate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_freightRate.Location = new System.Drawing.Point(111, 39);
-            this.txtbx_freightRate.Name = "txtbx_freightRate";
-            this.txtbx_freightRate.Size = new System.Drawing.Size(704, 20);
-            this.txtbx_freightRate.TabIndex = 3;
-            // 
-            // lbl_freightAmount
-            // 
-            this.lbl_freightAmount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbl_freightAmount.AutoSize = true;
-            this.lbl_freightAmount.Location = new System.Drawing.Point(6, 68);
-            this.lbl_freightAmount.Name = "lbl_freightAmount";
-            this.lbl_freightAmount.Size = new System.Drawing.Size(114, 13);
-            this.lbl_freightAmount.TabIndex = 4;
-            this.lbl_freightAmount.Text = "Freight Amount @ Rs.:";
-            // 
-            // textBox13
-            // 
-            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox13.Location = new System.Drawing.Point(126, 64);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(689, 20);
-            this.textBox13.TabIndex = 5;
             // 
             // billsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(866, 841);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(866, 873);
             this.Controls.Add(this.tbctrl_mainTabControl);
+            this.MinimumSize = new System.Drawing.Size(600, 620);
             this.Name = "billsForm";
             this.Text = "Billing System";
             this.Load += new System.EventHandler(this.billsForm_Load);
             this.tbctrl_mainTabControl.ResumeLayout(false);
             this.tbp_newBill.ResumeLayout(false);
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.grpbx_valuesInWords.ResumeLayout(false);
+            this.grpbx_valuesInWords.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.grpbx_totals.ResumeLayout(false);
+            this.grpbx_totals.PerformLayout();
+            this.grpbx_banckerInfo.ResumeLayout(false);
+            this.grpbx_banckerInfo.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.grpbx_billDetails.ResumeLayout(false);
@@ -932,14 +966,6 @@
             this.grpbx_driverInfo.PerformLayout();
             this.grpbx_customerInfo.ResumeLayout(false);
             this.grpbx_customerInfo.PerformLayout();
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.grpbx_totals.ResumeLayout(false);
-            this.grpbx_totals.PerformLayout();
-            this.grpbx_banckerInfo.ResumeLayout(false);
-            this.grpbx_banckerInfo.PerformLayout();
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.grpbx_valuesInWords.ResumeLayout(false);
-            this.grpbx_valuesInWords.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1020,5 +1046,7 @@
         private System.Windows.Forms.Label lbl_freightRate;
         private System.Windows.Forms.TextBox txtbx_RsWords;
         private System.Windows.Forms.Label lbl_RSWords;
+        private System.Windows.Forms.Button btn_cancel;
+        private System.Windows.Forms.Button btn_Save;
     }
 }
