@@ -28,5 +28,10 @@ namespace AccountingSoftware
             //this.Hide();
             billingForm.Show();
         }
+
+        private void btn_cmpBalanceSheet_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
