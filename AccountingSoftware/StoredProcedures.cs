@@ -22,6 +22,8 @@ namespace AccountingSoftware
 
         //Products related operations
         public static string InsertNewProduct = "InsertNewProduct";
+        public static string RetrieveProductByName = "RetrieveProductByName";
+        public static string RetrieveAllProducts = "RetrieveAllProducts";
 
         //Ledger related operations
         public static string RetrieveCustomerBills = "RetrieveCustomerBills";

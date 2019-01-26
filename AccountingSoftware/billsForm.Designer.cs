@@ -28,6 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tbctrl_mainTabControl = new System.Windows.Forms.TabControl();
             this.tbp_newBill = new System.Windows.Forms.TabPage();
             this.btn_cancel = new System.Windows.Forms.Button();
@@ -66,14 +72,6 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.grpbx_billDetails = new System.Windows.Forms.GroupBox();
             this.datagrid_orderDetails = new System.Windows.Forms.DataGridView();
-            this.serialNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.goodsDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Qtl = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Pkg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.weight = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ratePerQtl = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AmountR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AmountP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.grpbx_GSTIN = new System.Windows.Forms.GroupBox();
             this.lbl_gstinVal = new System.Windows.Forms.Label();
@@ -326,6 +324,12 @@
             this.label55 = new System.Windows.Forms.Label();
             this.txtbx_enterInvoiceDelete = new System.Windows.Forms.TextBox();
             this.btn_viewBillDelete = new System.Windows.Forms.Button();
+            this.serialNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Qtl = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Pkg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.weight = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ratePerQtl = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AmountR = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbctrl_mainTabControl.SuspendLayout();
             this.tbp_newBill.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -811,73 +815,17 @@
             this.datagrid_orderDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datagrid_orderDetails.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.serialNumber,
-            this.goodsDescription,
             this.Qtl,
             this.Pkg,
             this.weight,
             this.ratePerQtl,
-            this.AmountR,
-            this.AmountP});
+            this.AmountR});
             this.datagrid_orderDetails.Location = new System.Drawing.Point(6, 23);
             this.datagrid_orderDetails.Name = "datagrid_orderDetails";
             this.datagrid_orderDetails.Size = new System.Drawing.Size(818, 217);
             this.datagrid_orderDetails.TabIndex = 8;
-            // 
-            // serialNumber
-            // 
-            this.serialNumber.FillWeight = 30F;
-            this.serialNumber.HeaderText = "S. No.";
-            this.serialNumber.Name = "serialNumber";
-            this.serialNumber.Width = 60;
-            // 
-            // goodsDescription
-            // 
-            this.goodsDescription.FillWeight = 657.8682F;
-            this.goodsDescription.HeaderText = "Goods Description";
-            this.goodsDescription.Name = "goodsDescription";
-            this.goodsDescription.Width = 360;
-            // 
-            // Qtl
-            // 
-            this.Qtl.FillWeight = 7.081353F;
-            this.Qtl.HeaderText = "Qtl.";
-            this.Qtl.Name = "Qtl";
-            this.Qtl.Width = 50;
-            // 
-            // Pkg
-            // 
-            this.Pkg.FillWeight = 9.376002F;
-            this.Pkg.HeaderText = "Pkg.";
-            this.Pkg.Name = "Pkg";
-            this.Pkg.Width = 50;
-            // 
-            // weight
-            // 
-            this.weight.FillWeight = 12.43425F;
-            this.weight.HeaderText = "Weight";
-            this.weight.Name = "weight";
-            this.weight.Width = 50;
-            // 
-            // ratePerQtl
-            // 
-            this.ratePerQtl.FillWeight = 21.20576F;
-            this.ratePerQtl.HeaderText = "Rate per Qtl.";
-            this.ratePerQtl.Name = "ratePerQtl";
-            this.ratePerQtl.Width = 60;
-            // 
-            // AmountR
-            // 
-            this.AmountR.FillWeight = 47.01535F;
-            this.AmountR.HeaderText = "Amount(R)";
-            this.AmountR.Name = "AmountR";
-            this.AmountR.Width = 90;
-            // 
-            // AmountP
-            // 
-            this.AmountP.FillWeight = 20.72976F;
-            this.AmountP.HeaderText = "P.";
-            this.AmountP.Name = "AmountP";
-            this.AmountP.Width = 50;
+            this.datagrid_orderDetails.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.datagrid_orderDetails_RowsAdded);
+            this.datagrid_orderDetails.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.datagrid_orderDetails_RowsRemoved);
             // 
             // tableLayoutPanel1
             // 
@@ -1956,7 +1904,7 @@
             this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.85185F));
             this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
-            this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
+            this.tab_selectInvoice.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 170F));
             this.tab_selectInvoice.Controls.Add(this.btn_exportToPdf, 4, 0);
             this.tab_selectInvoice.Controls.Add(this.btn_reset, 3, 0);
             this.tab_selectInvoice.Controls.Add(this.lbl_enterInvoice, 0, 0);
@@ -1973,9 +1921,9 @@
             // 
             this.btn_exportToPdf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_exportToPdf.Enabled = false;
-            this.btn_exportToPdf.Location = new System.Drawing.Point(671, 3);
+            this.btn_exportToPdf.Location = new System.Drawing.Point(668, 3);
             this.btn_exportToPdf.Name = "btn_exportToPdf";
-            this.btn_exportToPdf.Size = new System.Drawing.Size(162, 23);
+            this.btn_exportToPdf.Size = new System.Drawing.Size(165, 23);
             this.btn_exportToPdf.TabIndex = 4;
             this.btn_exportToPdf.Text = "Export to PDF";
             this.btn_exportToPdf.UseVisualStyleBackColor = true;
@@ -1983,7 +1931,7 @@
             // btn_reset
             // 
             this.btn_reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_reset.Location = new System.Drawing.Point(542, 3);
+            this.btn_reset.Location = new System.Drawing.Point(539, 3);
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(123, 23);
             this.btn_reset.TabIndex = 3;
@@ -1994,7 +1942,7 @@
             // 
             this.lbl_enterInvoice.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lbl_enterInvoice.AutoSize = true;
-            this.lbl_enterInvoice.Location = new System.Drawing.Point(4, 8);
+            this.lbl_enterInvoice.Location = new System.Drawing.Point(3, 8);
             this.lbl_enterInvoice.Name = "lbl_enterInvoice";
             this.lbl_enterInvoice.Size = new System.Drawing.Size(108, 13);
             this.lbl_enterInvoice.TabIndex = 1;
@@ -2003,16 +1951,16 @@
             // txtb_enterInvoice
             // 
             this.txtb_enterInvoice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtb_enterInvoice.Location = new System.Drawing.Point(118, 4);
+            this.txtb_enterInvoice.Location = new System.Drawing.Point(117, 4);
             this.txtb_enterInvoice.Name = "txtb_enterInvoice";
-            this.txtb_enterInvoice.Size = new System.Drawing.Size(287, 20);
+            this.txtb_enterInvoice.Size = new System.Drawing.Size(285, 20);
             this.txtb_enterInvoice.TabIndex = 1;
             // 
             // btn_searchBill
             // 
             this.btn_searchBill.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_searchBill.Enabled = false;
-            this.btn_searchBill.Location = new System.Drawing.Point(411, 3);
+            this.btn_searchBill.Location = new System.Drawing.Point(408, 3);
             this.btn_searchBill.Name = "btn_searchBill";
             this.btn_searchBill.Size = new System.Drawing.Size(125, 23);
             this.btn_searchBill.TabIndex = 2;
@@ -2776,7 +2724,7 @@
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.85185F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 170F));
             this.tableLayoutPanel9.Controls.Add(this.btn_saveEdit, 4, 0);
             this.tableLayoutPanel9.Controls.Add(this.btn_resetEdit, 3, 0);
             this.tableLayoutPanel9.Controls.Add(this.label3, 0, 0);
@@ -2793,9 +2741,9 @@
             // 
             this.btn_saveEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_saveEdit.Enabled = false;
-            this.btn_saveEdit.Location = new System.Drawing.Point(671, 3);
+            this.btn_saveEdit.Location = new System.Drawing.Point(668, 3);
             this.btn_saveEdit.Name = "btn_saveEdit";
-            this.btn_saveEdit.Size = new System.Drawing.Size(162, 23);
+            this.btn_saveEdit.Size = new System.Drawing.Size(165, 23);
             this.btn_saveEdit.TabIndex = 4;
             this.btn_saveEdit.Text = "Save";
             this.btn_saveEdit.UseVisualStyleBackColor = true;
@@ -2803,7 +2751,7 @@
             // btn_resetEdit
             // 
             this.btn_resetEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_resetEdit.Location = new System.Drawing.Point(542, 3);
+            this.btn_resetEdit.Location = new System.Drawing.Point(539, 3);
             this.btn_resetEdit.Name = "btn_resetEdit";
             this.btn_resetEdit.Size = new System.Drawing.Size(123, 23);
             this.btn_resetEdit.TabIndex = 3;
@@ -2814,7 +2762,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 8);
+            this.label3.Location = new System.Drawing.Point(3, 8);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(108, 13);
             this.label3.TabIndex = 1;
@@ -2823,16 +2771,16 @@
             // txtbx_enterInvoiceEdit
             // 
             this.txtbx_enterInvoiceEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_enterInvoiceEdit.Location = new System.Drawing.Point(118, 4);
+            this.txtbx_enterInvoiceEdit.Location = new System.Drawing.Point(117, 4);
             this.txtbx_enterInvoiceEdit.Name = "txtbx_enterInvoiceEdit";
-            this.txtbx_enterInvoiceEdit.Size = new System.Drawing.Size(287, 20);
+            this.txtbx_enterInvoiceEdit.Size = new System.Drawing.Size(285, 20);
             this.txtbx_enterInvoiceEdit.TabIndex = 1;
             // 
             // btn_searchBillEdit
             // 
             this.btn_searchBillEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_searchBillEdit.Enabled = false;
-            this.btn_searchBillEdit.Location = new System.Drawing.Point(411, 3);
+            this.btn_searchBillEdit.Location = new System.Drawing.Point(408, 3);
             this.btn_searchBillEdit.Name = "btn_searchBillEdit";
             this.btn_searchBillEdit.Size = new System.Drawing.Size(125, 23);
             this.btn_searchBillEdit.TabIndex = 2;
@@ -3625,7 +3573,7 @@
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.85185F));
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 129F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 170F));
             this.tableLayoutPanel14.Controls.Add(this.btn_delete, 4, 0);
             this.tableLayoutPanel14.Controls.Add(this.btn_cancelDelete, 3, 0);
             this.tableLayoutPanel14.Controls.Add(this.label55, 0, 0);
@@ -3642,9 +3590,9 @@
             // 
             this.btn_delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_delete.Enabled = false;
-            this.btn_delete.Location = new System.Drawing.Point(671, 3);
+            this.btn_delete.Location = new System.Drawing.Point(668, 3);
             this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(162, 23);
+            this.btn_delete.Size = new System.Drawing.Size(165, 23);
             this.btn_delete.TabIndex = 4;
             this.btn_delete.Text = "Delete";
             this.btn_delete.UseVisualStyleBackColor = true;
@@ -3652,7 +3600,7 @@
             // btn_cancelDelete
             // 
             this.btn_cancelDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_cancelDelete.Location = new System.Drawing.Point(542, 3);
+            this.btn_cancelDelete.Location = new System.Drawing.Point(539, 3);
             this.btn_cancelDelete.Name = "btn_cancelDelete";
             this.btn_cancelDelete.Size = new System.Drawing.Size(123, 23);
             this.btn_cancelDelete.TabIndex = 3;
@@ -3663,7 +3611,7 @@
             // 
             this.label55.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(4, 8);
+            this.label55.Location = new System.Drawing.Point(3, 8);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(108, 13);
             this.label55.TabIndex = 1;
@@ -3672,21 +3620,75 @@
             // txtbx_enterInvoiceDelete
             // 
             this.txtbx_enterInvoiceDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtbx_enterInvoiceDelete.Location = new System.Drawing.Point(118, 4);
+            this.txtbx_enterInvoiceDelete.Location = new System.Drawing.Point(117, 4);
             this.txtbx_enterInvoiceDelete.Name = "txtbx_enterInvoiceDelete";
-            this.txtbx_enterInvoiceDelete.Size = new System.Drawing.Size(287, 20);
+            this.txtbx_enterInvoiceDelete.Size = new System.Drawing.Size(285, 20);
             this.txtbx_enterInvoiceDelete.TabIndex = 1;
             // 
             // btn_viewBillDelete
             // 
             this.btn_viewBillDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_viewBillDelete.Enabled = false;
-            this.btn_viewBillDelete.Location = new System.Drawing.Point(411, 3);
+            this.btn_viewBillDelete.Location = new System.Drawing.Point(408, 3);
             this.btn_viewBillDelete.Name = "btn_viewBillDelete";
             this.btn_viewBillDelete.Size = new System.Drawing.Size(125, 23);
             this.btn_viewBillDelete.TabIndex = 2;
             this.btn_viewBillDelete.Text = "Review Bill";
             this.btn_viewBillDelete.UseVisualStyleBackColor = true;
+            // 
+            // serialNumber
+            // 
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.serialNumber.DefaultCellStyle = dataGridViewCellStyle1;
+            this.serialNumber.FillWeight = 30F;
+            this.serialNumber.HeaderText = "S. No.";
+            this.serialNumber.Name = "serialNumber";
+            this.serialNumber.Width = 60;
+            // 
+            // Qtl
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Qtl.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Qtl.FillWeight = 7.081353F;
+            this.Qtl.HeaderText = "Qtl.";
+            this.Qtl.Name = "Qtl";
+            this.Qtl.Width = 60;
+            // 
+            // Pkg
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Pkg.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Pkg.FillWeight = 9.376002F;
+            this.Pkg.HeaderText = "Pkg.";
+            this.Pkg.Name = "Pkg";
+            this.Pkg.Width = 60;
+            // 
+            // weight
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.weight.DefaultCellStyle = dataGridViewCellStyle4;
+            this.weight.FillWeight = 12.43425F;
+            this.weight.HeaderText = "Weight";
+            this.weight.Name = "weight";
+            this.weight.Width = 60;
+            // 
+            // ratePerQtl
+            // 
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ratePerQtl.DefaultCellStyle = dataGridViewCellStyle5;
+            this.ratePerQtl.FillWeight = 21.20576F;
+            this.ratePerQtl.HeaderText = "Rate per Qtl.";
+            this.ratePerQtl.Name = "ratePerQtl";
+            this.ratePerQtl.Width = 60;
+            // 
+            // AmountR
+            // 
+            this.AmountR.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.AmountR.DefaultCellStyle = dataGridViewCellStyle6;
+            this.AmountR.FillWeight = 47.01535F;
+            this.AmountR.HeaderText = "Amount";
+            this.AmountR.Name = "AmountR";
             // 
             // billsForm
             // 
@@ -3836,14 +3838,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn serialNumber;
-        private System.Windows.Forms.DataGridViewTextBoxColumn goodsDescription;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Qtl;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Pkg;
-        private System.Windows.Forms.DataGridViewTextBoxColumn weight;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ratePerQtl;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AmountR;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AmountP;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.GroupBox grpbx_totals;
         private System.Windows.Forms.TextBox txtbx_totalAmount;
@@ -4099,5 +4093,11 @@
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.TextBox txtbx_invoiceNoDelete;
+        private System.Windows.Forms.DataGridViewTextBoxColumn serialNumber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Qtl;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Pkg;
+        private System.Windows.Forms.DataGridViewTextBoxColumn weight;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ratePerQtl;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AmountR;
     }
 }

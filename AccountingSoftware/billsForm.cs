@@ -16,6 +16,24 @@ namespace AccountingSoftware
         {
             InitializeComponent();
             debug_initForm();
+            InitalizeProductsList();
+            datagrid_orderDetails.Rows[0].Cells[0].Value = "1";
+        }
+
+        private void InitalizeProductsList()
+        {
+            Controller con = new Controller();
+            DataGridViewComboBoxColumn cmbo = new DataGridViewComboBoxColumn();
+            cmbo.Width = 380;
+            cmbo.HeaderText = "Goods Description";
+            cmbo.DataSource = con.RetrieveAllProducts();
+            datagrid_orderDetails.Columns.Insert(1, cmbo);
+        }
+
+        private int GetProductId(string name)
+        {
+            Controller con = new Controller();
+            return con.RetrieveProductByName(name);
         }
 
         private Bill CaptureBillDetails()
@@ -50,7 +68,7 @@ namespace AccountingSoftware
         {
             List<Order> orders = new List<Order>();
             
-            for(int i = 0; i < datagrid_orderDetails.Rows.Count; i++)
+            for(int i = 0; i < datagrid_orderDetails.Rows.Count - 1; i++)
             {
                 Order order = new Order();
 
@@ -60,9 +78,9 @@ namespace AccountingSoftware
                 order.Pkg = double.Parse(datagrid_orderDetails.Rows[i].Cells[3].Value.ToString());
                 order.weight = double.Parse(datagrid_orderDetails.Rows[i].Cells[4].Value.ToString());
                 order.ratePerQtl = double.Parse(datagrid_orderDetails.Rows[i].Cells[5].Value.ToString());
-                double R = double.Parse(datagrid_orderDetails.Rows[i].Cells[6].Value.ToString());
-                double P = double.Parse(datagrid_orderDetails.Rows[i].Cells[7].Value.ToString());
-                order.amount = R + P / 100.0;
+                order.amount = double.Parse(datagrid_orderDetails.Rows[i].Cells[6].Value.ToString());
+                order.billId = int.Parse(txtbx_InvoiceNumber.Text);
+                order.productId = GetProductId(order.goodsDescription);
 
                 orders.Add(order);
             }
@@ -94,22 +112,60 @@ namespace AccountingSoftware
             txtbx_freightAmount.Text = "123";
         }
 
-        private void btn_Save_Click(object sender, EventArgs e)
+        private int InsertBillFrom()
         {
-            //DBManager dbMan = new DBManager();
             Bill bill = CaptureBillDetails();
-            //List<Order> orders = CaptureOrdersDetails();
             Controller con = new Controller();
 
             int res = con.InsertNewBill(bill);
 
-            if (res == 1)
+            if (res == 0)
             {
-                MessageBox.Show("A new bill has been added");
+                MessageBox.Show("There is an error the bill data!");
             }
-            else
+
+            return res;
+        }
+
+        private int InsertOrders()
+        {
+            List<Order> orders = CaptureOrdersDetails();
+            Controller con = new Controller();
+
+            int res = con.InsertOrders(orders);
+
+            if (res != -1)
             {
-                MessageBox.Show("Error while inserting");
+                MessageBox.Show("There is an error in inserting item number: " + res.ToString());
+            }
+
+            return res;
+        }
+
+        private void btn_Save_Click(object sender, EventArgs e)
+        {
+            int BillInsertionRes = InsertBillFrom();
+            int ordersInsertionRes = InsertOrders();
+
+            if(BillInsertionRes == 1 && ordersInsertionRes == -1)
+            {
+                MessageBox.Show("New bill has been added successfully!");
+            }
+        }
+
+        private void datagrid_orderDetails_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            for(int i = 0; i < datagrid_orderDetails.Rows.Count; i++)
+            {
+                datagrid_orderDetails.Rows[i].Cells[0].Value = (i + 1).ToString(); 
+            }
+        }
+
+        private void datagrid_orderDetails_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
+        {
+            for (int i = 0; i < datagrid_orderDetails.Rows.Count; i++)
+            {
+                datagrid_orderDetails.Rows[i].Cells[0].Value = (i + 1).ToString();
             }
         }
     }

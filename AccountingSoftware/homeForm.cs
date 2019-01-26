@@ -33,5 +33,16 @@ namespace AccountingSoftware
         {
 
         }
+
+        private void btn_cmpLedger_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_ProductManager_Click(object sender, EventArgs e)
+        {
+            ProductManager productManager = new ProductManager();
+            productManager.Show();
+        }
     }
 }
